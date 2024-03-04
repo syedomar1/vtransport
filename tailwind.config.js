@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+// tailwind.config.js
+
+module.exports = {
+  content: ["./index.html","./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      // You can extend Tailwind CSS theme here
+    },
+  },
+  plugins: [],
+};
+=======
 module.exports = {
     content: ['./src/**/*.{js,jsx,ts,tsx}'],
     theme: {
@@ -32,3 +45,4 @@ module.exports = {
     plugins: [],
   };
   
+>>>>>>> 431025954db3825fedeb17aa04b30ade4d0498ce
