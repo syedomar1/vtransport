@@ -1,4 +1,4 @@
-import Logo from "./Logo";
+// import Logo from "./Logo";
 import TitleCard from "./TitleCard";
 export default function OverlayStyle(){
     const overlayStyle = {
@@ -15,7 +15,7 @@ export default function OverlayStyle(){
 
     return (
         <div className="OverlayStyle" style={overlayStyle}>
-            <Logo></Logo>
+            {/* <Logo></Logo> */}
             <TitleCard></TitleCard>
         </div>
     )

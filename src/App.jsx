@@ -1,9 +1,10 @@
 
 import React, { useState, useEffect } from 'react';
-import { DataExtraction } from '../data.js'; // Import DataExtraction function
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { DataExtraction } from '../data.js';
 import './App.css'
 import HomeScreen from './components/HomeScreen'
+import Navbar from './components/Navbar'
 function App() {
   // const [routesData, setRoutesData] = useState(null);
 
@@ -25,9 +26,21 @@ function App() {
 
   return (
     <>
-    <HomeScreen></HomeScreen>
+        <Router>
+        <div className='bg-slate-900'>
+          <Navbar/>
+        </div>
+            <Routes>
+              <Route exact path="/" element={<HomeScreen/>} />
+            </Routes>
+        </Router>
     </>
-  )
+
+    // <div className='bg-slate-900'>
+    //   <Navbar/>
+    // </div>
+    // <HomeScreen></HomeScreen>
+  );
 }
 
 export default App
