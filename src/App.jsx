@@ -6,6 +6,7 @@ import './App.css'
 import HomeScreen from './components/HomeScreen'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import Schedule from './components/Schedule';
 function App() {
   // const [routesData, setRoutesData] = useState(null);
 
@@ -33,6 +34,7 @@ function App() {
         </div>
             <Routes>
               <Route exact path="/" element={<HomeScreen/>} />
+              <Route exact path="/schedule" element={<Schedule/>} />
             </Routes>
             <Footer/>
         </Router>
