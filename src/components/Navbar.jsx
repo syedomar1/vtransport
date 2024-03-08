@@ -30,7 +30,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className='h-10vh flex justify-between z-50 text-white lg:py-5 px-20 py-4 bg-slate-800 bg-opacity-70'>
+      <div className='h-10vh flex justify-between z-50 text-white lg:py-5 px-20 py-4 bg-slate-700 bg-opacity-70'>
         <div className='flex items-center flex-1'>
         <Link to='/' spy={true} smooth={true}>
             <img src={logo} alt="VIT Logo" className="h-15 w-20 cursor-pointer" onClick={closeNavbar} />

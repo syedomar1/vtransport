@@ -5,6 +5,7 @@ import { DataExtraction } from '../data.js';
 import './App.css'
 import HomeScreen from './components/HomeScreen'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 function App() {
   // const [routesData, setRoutesData] = useState(null);
 
@@ -33,6 +34,7 @@ function App() {
             <Routes>
               <Route exact path="/" element={<HomeScreen/>} />
             </Routes>
+            <Footer/>
         </Router>
     </>
 
