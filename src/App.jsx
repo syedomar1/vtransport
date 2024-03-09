@@ -8,6 +8,8 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Schedule from './components/Schedule';
 import Map from './components/Map';
+import Navigation from './components/Navigation';
+import Timings from './components/Timings';
 function App() {
   // const [routesData, setRoutesData] = useState(null);
 
@@ -37,7 +39,9 @@ function App() {
               <Route exact path="/" element={<HomeScreen/>} />
               <Route exact path="/schedule" element={<Schedule/>} />
               <Route exact path="/track" element={<Map/>} />
+              <Route exact path="/timings" element={<Timings/>} />
             </Routes>
+            <Navigation/>
             <Footer/>
         </Router>
     </>

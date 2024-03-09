@@ -12,3 +12,40 @@ body{
   z-index: -2;
   overflow: hidden;
 }
+
+.NavLinkContainer {
+  position: fixed;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+.NavLink {
+  display: block;
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #033483; /* Default blue */
+  margin-bottom: 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.NavLink:nth-child(2) {
+  background-color: #1914ad; /* Second blue */
+}
+
+.NavLink:nth-child(3) {
+  background-color: #5381ff; /* Third blue */
+}
+
+.NavLink h1 {
+  margin: 0;
+}
+
+.NavLink.expanded {
+  padding-right: 100px; /* Adjust this value based on how much you want the link to expand */
+}
+
+.NavLink:hover {
+  background-color: #ccc;
+}
