@@ -7,6 +7,7 @@ import HomeScreen from './components/HomeScreen'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Schedule from './components/Schedule';
+import Map from './components/Map';
 function App() {
   // const [routesData, setRoutesData] = useState(null);
 
@@ -35,6 +36,7 @@ function App() {
             <Routes>
               <Route exact path="/" element={<HomeScreen/>} />
               <Route exact path="/schedule" element={<Schedule/>} />
+              <Route exact path="/track" element={<Map/>} />
             </Routes>
             <Footer/>
         </Router>

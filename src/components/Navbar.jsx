@@ -21,8 +21,8 @@ const Navbar = () => {
         <Link to='/timings' onClick={closeNavbar} className='nav-link'>
           <li className='my-4 py-4 border-b border-slate-800 hover:bg-slate-880 hover:text-blue-300 hover:rounded cursor-pointer text-decoration-none'>Timings</li>
         </Link>
-        <Link to='/contacts' onClick={closeNavbar} className='nav-link'>
-          <li className='my-4 py-4 border-b border-slate-800 hover:bg-slate-880 hover:text-blue-300 hover:rounded cursor-pointer text-decoration-none'>Contacts</li>
+        <Link to='/track' onClick={closeNavbar} className='nav-link'>
+          <li className='my-4 py-4 border-b border-slate-800 hover:bg-slate-880 hover:text-blue-300 hover:rounded cursor-pointer text-decoration-none'>Track</li>
         </Link>
       </ul>
     </div>
@@ -48,8 +48,8 @@ const Navbar = () => {
               <Link to='/timings' className='nav-link' onClick={closeNavbar}>
                 <li className='hover:text-blue-300 transition border-slate-900 cursor-pointer text-decoration-none'>Timings</li>
               </Link>
-              <Link to='/contacts' className='nav-link' onClick={closeNavbar}>
-                <li className='hover:text-blue-300 transition border-slate-900 cursor-pointer text-decoration-none'>Contacts</li>
+              <Link to='/track' className='nav-link' onClick={closeNavbar}>
+                <li className='hover:text-blue-300 transition border-slate-900 cursor-pointer text-decoration-none'>Track</li>
               </Link>
             </ul>
           </div>
