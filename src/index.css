@@ -8,7 +8,7 @@ body{
   width: 100vw;
   top: 0;
   left: 0;
-  background-size: cover; /* Ensure the background image covers the entire viewport */
+  background-size: cover; 
   z-index: -2;
   overflow: hidden;
 }
@@ -24,18 +24,18 @@ body{
   display: block;
   cursor: pointer;
   padding: 10px 20px;
-  background-color: #033483; /* Default blue */
+  background-color: #033483; 
   margin-bottom: 10px;
   border-radius: 5px;
   transition: all 0.3s ease;
 }
 
 .NavLink:nth-child(2) {
-  background-color: #1914ad; /* Second blue */
+  background-color: #1914ad;
 }
 
 .NavLink:nth-child(3) {
-  background-color: #5381ff; /* Third blue */
+  background-color: #5381ff; 
 }
 
 .NavLink h1 {
@@ -43,7 +43,7 @@ body{
 }
 
 .NavLink.expanded {
-  padding-right: 100px; /* Adjust this value based on how much you want the link to expand */
+  padding-right: 100px;
 }
 
 .NavLink:hover {
