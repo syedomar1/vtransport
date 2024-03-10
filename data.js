@@ -1,5 +1,4 @@
 // import * as xlsx from 'xlsx';
-// import path from 'path';
 // import fs from 'fs';
 
 // // Function to extract data from Excel file
