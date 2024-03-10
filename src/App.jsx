@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { DataExtraction } from '../data.js';
+// import { DataExtraction } from '../data.js';
 import './App.css'
 import HomeScreen from './components/HomeScreen'
 import Navbar from './components/Navbar'
