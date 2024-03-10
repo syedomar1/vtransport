@@ -49,7 +49,7 @@ export default function Schedule() {
   const data = getCalendarDates().map(date => ({
     label: date,
     value: date,
-    desc: `Description for ${date}`,
+    desc: `Routes for ${date} will be added soon`,
   }));
 
   return (

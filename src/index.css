@@ -12,7 +12,7 @@ body{
   z-index: -2;
   overflow: hidden;
 }
-
+/*
 .NavLinkContainer {
   position: fixed;
   top: 50%;
@@ -49,3 +49,4 @@ body{
 .NavLink:hover {
   background-color: #ccc;
 }
+*/
