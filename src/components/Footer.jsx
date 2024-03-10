@@ -10,7 +10,8 @@ export default function Footer() {
       position: 'absolute',
       bottom: 0,
       left: 0,
-      width: '100%'
+      right:0,
+      width: '100%',
     }}>
       <p style={{ fontSize: '0.8rem' }}>© 2024 Copyright: Vellore Institute of Technology</p>
     </footer>

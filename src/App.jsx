@@ -11,30 +11,13 @@ import Map from './components/Map';
 // import Navigation from './components/Navigation';
 import Timings from './components/Timings';
 function App() {
-  // const [routesData, setRoutesData] = useState(null);
-
-  // useEffect(() => {
-  //   // Path to your Excel file
-  //   const filePath = '../data_routes/bus_timings.xlsx';
-
-  //   // Fetch the data using DataExtraction function
-  //   const data = DataExtraction(filePath);
-
-  //   // Set the data in component state
-  //   setRoutesData(data);
-
-  //   // Print the data to the console
-  //   Object.keys(data).forEach(route => {
-  //     console.log(route);
-  //   });
-  // }, []);
-
   return (
     <>
         <Router>
         <div className='bg-slate-900'>
           <Navbar/>
         </div>
+        <div className='content' style={{ overflow: 'auto', minHeight: 'calc(100vh - 80px)' }}>
             <Routes>
               <Route exact path="/" element={<HomeScreen/>} />
               <Route exact path="/schedule" element={<Schedule/>} />
@@ -43,13 +26,9 @@ function App() {
             </Routes>
             {/* <Navigation/> */}
             <Footer/>
+          </div>
         </Router>
     </>
-
-    // <div className='bg-slate-900'>
-    //   <Navbar/>
-    // </div>
-    // <HomeScreen></HomeScreen>
   );
 }
 

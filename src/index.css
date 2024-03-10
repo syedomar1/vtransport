@@ -3,14 +3,17 @@
 @tailwind utilities;
 
 body{
-  background-image: url("./assets/vit_bg.png");
   height: 100vh;
   width: 100vw;
+  background-image: url("./assets/vit_bg.png");
   top: 0;
   left: 0;
   background-size: cover; 
   z-index: -2;
-  overflow: hidden;
+  overflow-y: hidden; /* Allow overflow */
+  overflow-x: hidden;
+  background-size: cover; /* Cover the entire viewport */
+  background-repeat: no-repeat; 
 }
 /*
 .NavLinkContainer {

@@ -1,17 +1,14 @@
-export default function ScheduleStyle(){
+export default function ScheduleStyle() {
     const scheduleStyle = {
-        position: 'absolute',
-        top: 0,
-        left: 0,
-        width: '100vw',
-        height: '100vh',
-        backgroundPosition: 'center',
-        backgroundColor: 'rgb(5, 45, 81)', // Greyish color with 50% opacity
-        zIndex: -2, // Ensure the overlay is above the background image
-        backgroundSize:'cover',
-      };
-    return(
-        <div className="ScheduleStyle" style={scheduleStyle}>
-        </div>
-    )
-}
+      position: 'absolute',
+      top: 0,
+      left: 0,
+      width:'100%',
+      height:'100%', 
+      backgroundColor: 'rgb(8,44,84)', // Greyish color with 50% opacity
+      zIndex: 0, // Adjust z-index as needed
+      overflow:'auto',
+    };
+  
+    return <div className="ScheduleStyle" style={scheduleStyle}></div>;
+  }

@@ -1,20 +1,26 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import MenuItem from '@mui/material/MenuItem';
 import ScheduleStyle from './ScheduleStyle';
 import busRoutesData from '../../data_routes/routes_data.json';
 import {  Tabs,  TabsHeader,  TabsBody,  Tab,  TabPanel,} from "@material-tailwind/react";
-
+import Accordion from '@mui/material/Accordion';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import * as React from 'react';
+import Typography from '@mui/material/Typography';
+import AddIcon from '@mui/icons-material/Add';
 
 export default function Schedule() {
-  // Initialize selectedRoute with the first route name
   const [selectedRoute, setSelectedRoute] = useState('');
   const [selectedTiming, setSelectedTiming] = useState(''); 
+  const [selectedRouteStoppings, setSelectedRouteStoppings] = useState([]);
 
   const handleRouteChange = (event) => {
     setSelectedRoute(event.target.value);
     setSelectedTiming('');
+    setSelectedRouteStoppings(busRoutesData[event.target.value]);
   };
 
   const handleStoppingChange = (event) => {
@@ -57,12 +63,13 @@ export default function Schedule() {
     <ScheduleStyle></ScheduleStyle>
     <div style={{
       position: 'absolute',
-      top: '30%',
+      top: '20%',
       left: '10%',
       height: '70vh',
       width: '80vw',
       borderRadius: '20px',
       backgroundColor: '#71b1eb',
+      overflow: 'auto',
     }}>
     <Tabs id="custom-animation" value="{currentValue}">
     <TabsHeader>
@@ -132,20 +139,6 @@ export default function Schedule() {
                   color: 'white',
                 },
               }}
-              SelectProps={{
-                MenuProps: {
-                  anchorOrigin: {
-                    vertical: 'bottom',
-                    horizontal: 'left',
-                  },
-                  transformOrigin: {
-                    vertical: 'top',
-                    horizontal: 'left',
-                  },
-                  sx: { maxHeight: "400px" },
-                  sy: { maxWidth: '25vw' },
-                },
-              }}
               InputProps={{
                 style: { textAlign: 'center', color: 'white' },
               }}
@@ -185,21 +178,45 @@ export default function Schedule() {
                 style: { textAlign: 'center', color: 'white' },
               }}
             >
-              {['MORNING', '1:45 PM', '5:00 PM', '6:00 PM'].map((timing, index) => (
-                <MenuItem key={index} value={timing}>
-                  {timing}
-                </MenuItem>
-              ))}
+              <MenuItem value="MORNING">Morning</MenuItem>
+              <MenuItem value="1:45 PM">1:45 PM</MenuItem>
+              <MenuItem value="5:00 PM">5:00 PM</MenuItem>
+              <MenuItem value="6:00 PM">6:00 PM</MenuItem>
             </TextField>
           </Box>
-          <hr style={{ width: '68%', margin: '3% 0', left: '10%' }} /> {/* Horizontal line */}
+          <hr style={{ width: '80%', margin: '3% 0' , left:'10%' }} />
         </Box>
-        {/* Routes for the selected tab */}
-        <div className="text-white">
-          {busRoutesData[selectedRoute]?.map((route, index) => (
-            <div key={index}>{route}</div>
-          ))}
-        </div>
+        <Accordion style={{ margin: '0% 5%', width: '90%' }}>
+          <AccordionSummary
+            expandIcon={<AddIcon />}
+            aria-controls="panel2-content"
+            id="panel2-header"
+            sx={{ backgroundColor: 'white', color: '#71b1eb', textAlign: 'center' }}
+          >
+            <Typography variant="subtitle1" sx={{ flexBasis: '50.00%' }}>{selectedRoute}</Typography>
+            <Typography variant="subtitle1" sx={{ flexBasis: '50.00%' }}>{selectedTiming}</Typography>
+          </AccordionSummary>
+          <AccordionDetails style={{ color: '#71b1eb'}}>
+            <table className="table-fixed w-full text" style={{textColor:"#71b1eb"}}>
+              <thead>
+                <tr>
+                  <th className="w-1/3 p-3 text-center">BUS ROUTE NO</th>
+                  <th className="w-1/3 p-3 text-center">STOP_NAME</th>
+                  <th className="w-1/3 p-3 text-center">TIMING</th>
+                </tr>
+              </thead>
+              <tbody>
+                {selectedRouteStoppings.map((stopping, index) => (
+                  <tr key={index}>
+                    <td className="p-3 text-center">{selectedRoute}</td>
+                    <td className="p-3 text-center">{stopping["NAME OF THE STOPPING"]}</td>
+                    <td className="p-3 text-center">{stopping["TIME A.M"]}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </AccordionDetails>
+        </Accordion>
       </div>
     </div>
   );
