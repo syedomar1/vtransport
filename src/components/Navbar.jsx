@@ -29,8 +29,8 @@ const Navbar = () => {
   );
 
   return (
-    <nav>
-      <div className='h-10vh flex justify-between z-50 text-white lg: py-2 px-20  bg-slate-700 bg-opacity-70'>
+    <nav style={{position:'fixed',top:0,left:0,width:'100%',zIndex:"1"}}>
+      <div className='h-10vh flex justify-between z-50 text-white lg: py-2 px-20  bg-slate-700 bg-opacity-100 '>
         <div className='flex items-center flex-1'>
           <Link to='/' className="cursor-pointer" onClick={closeNavbar}>
             <img src={logo} alt="VIT Logo" className="h-16 w-32" />

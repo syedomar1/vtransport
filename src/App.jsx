@@ -11,7 +11,7 @@ import Timings from './components/Timings';
 
 function App() {
   return (
-    <div style={{ overflow: 'auto' }} >
+
     <Router>
       <div className='bg-slate-900'>
         <Navbar />
@@ -24,9 +24,7 @@ function App() {
           <Route exact path="/timings" element={<Timings />} />
         </Routes>
       </div>
-      <Footer />
     </Router>
-    </div>
   );
 }
 
