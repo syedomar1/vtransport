@@ -1,11 +1,18 @@
-import React from 'react'
+import React from 'react';
 
-export default function Footer(){
-    return (
-      <div>
-        <footer className='bg-slate-700 text-white text-center py-4 fixed bottom-0 w-full'>
-          <p className='text-sm'>&copy;2024 Copyright: Vellore Institute of Technology </p>
-        </footer>
-      </div>
-    );
+export default function Footer() {
+  return (
+    <footer style={{
+      backgroundColor: '#374151', // Example background color
+      color: 'white', // Example text color
+      textAlign: 'center', // Example text alignment
+      padding: '5px', // Example padding
+      position: 'absolute',
+      bottom: 0,
+      left: 0,
+      width: '100%'
+    }}>
+      <p style={{ fontSize: '0.8rem' }}>© 2024 Copyright: Vellore Institute of Technology</p>
+    </footer>
+  );
 }
