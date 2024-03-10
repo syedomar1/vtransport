@@ -1,18 +1,22 @@
-
-ScheduleStyle.jsx
-export default function ScheduleStyle(){
-    const scheduleStyle = {
-        position: 'relative',
+import Logo from "./Logo";
+import TitleCard from "./TitleCard";
+export default function OverlayStyle(){
+    const overlayStyle = {
+        position: 'absolute',
         top: 0,
         left: 0,
-        width: '100%',
-        height: '100%',
+        width: '100vw',
+        height: '100vh',
         backgroundPosition: 'center',
-        backgroundColor: 'rgb(5, 45, 81)', // Greyish color with 50% opacity
-        zIndex: -2, // Ensure the overlay is above the background image
+        backgroundColor: 'rgba(38, 34, 33, 0.5)', // Greyish color with 50% opacity
+        zIndex: -1, // Ensure the overlay is above the background image
+        backgroundSize:'cover',
       };
-    return(
-        <div className="ScheduleStyle" style={scheduleStyle}>
-        </div>
-    )
+
+    return (
+        <div className="OverlayStyle" style={overlayStyle}>
+            {/* <Logo></Logo> */}
+            <TitleCard></TitleCard>
+        </div>
+    )
 }
