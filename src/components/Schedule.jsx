@@ -63,9 +63,9 @@ export default function Schedule() {
     <ScheduleStyle></ScheduleStyle>
     <div style={{
       position: 'absolute',
-      top: '20%',
+      top: '15%',
       left: '10%',
-      height: '70vh',
+      height: '75vh',
       width: '80vw',
       borderRadius: '20px',
       backgroundColor: '#71b1eb',
@@ -122,7 +122,7 @@ export default function Schedule() {
               fullWidth
               sx={{
                 mr: 2,
-                width: '25vw',
+                width: '27vw',
                 '& .MuiOutlinedInput-root': {
                   '& fieldset': {
                     borderColor: 'white',
@@ -137,6 +137,19 @@ export default function Schedule() {
                 },
                 '& .MuiInputLabel-root': {
                   color: 'white',
+                },
+              }}
+              SelectProps={{
+                MenuProps: {
+                  anchorOrigin: {
+                    vertical: 'bottom',
+                    horizontal: 'left',
+                  },
+                  transformOrigin: {
+                    vertical: 'top',
+                    horizontal: 'left',
+                  },
+                  sx: { maxHeight: "400px" },
                 },
               }}
               InputProps={{
