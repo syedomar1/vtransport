@@ -4,7 +4,7 @@ export default function TitleCard() {
             <div className="ml-20">
                 <p className="text-white">TRANSPORT</p>
                 <p className="text-white ml-8">HELPLINE</p>
-                <hr className="mt-2 border-2 w-72 color-white"/>
+                <hr className="mt-2 border-2 w-76 color-white"/>
             </div>
         </div>
     );
