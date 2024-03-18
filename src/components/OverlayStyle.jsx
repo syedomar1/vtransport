@@ -8,8 +8,8 @@ export default function OverlayStyle(){
         width: '100vw',
         height: '100vh',
         backgroundPosition: 'center',
-        backgroundColor: 'rgba(19, 19, 19, 0.2)', // Greyish color with 50% opacity
-        zIndex: -1, // Ensure the overlay is above the background image
+        backgroundColor: 'rgba(19, 19, 19, 0.2)', 
+        zIndex: -1, 
         backgroundSize:'cover',
       };
     const dashBoard = {

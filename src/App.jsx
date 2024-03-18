@@ -17,7 +17,7 @@ function App() {
         <div className='bg-slate-900'>
           <Navbar/>
         </div>
-        <div className='content' style={{ overflow: 'auto', minHeight: 'calc(100vh - 80px)' }}>
+        <div className='content' style={{ overflow: 'auto', minHeight: 'calc(100vh - 80px)',marginTop:'80px' }}>
             <Routes>
               <Route exact path="/" element={<HomeScreen/>} />
               <Route exact path="/schedule" element={<Schedule/>} />
@@ -33,4 +33,3 @@ function App() {
 }
 
 export default App
-
