@@ -45,7 +45,7 @@ export default function Timings() {
                     </form>
                 </div>
 
-                {['Driver Information', 'Bus Information', 'Route Information'].map((item, index) => (
+                {['Bus Incharge Info', 'Bus Information', 'Route Information'].map((item, index) => (
                     <div key={index} className="mb-6" style={{ width: '80%' }}>
                         <button
                             type="button"
