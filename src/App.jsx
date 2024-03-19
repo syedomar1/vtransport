@@ -10,6 +10,7 @@ import Schedule from './components/Schedule';
 import Map from './components/Map';
 // import Navigation from './components/Navigation';
 import Timings from './components/Timings';
+import Login from './components/Login';
 function App() {
   return (
     <>
@@ -23,6 +24,7 @@ function App() {
               <Route exact path="/schedule" element={<Schedule/>} />
               <Route exact path="/track" element={<Map/>} />
               <Route exact path="/timings" element={<Timings/>} />
+              <Route exact path="/login" element={<Login/>} />
             </Routes>
             {/* <Navigation/> */}
             <Footer/>

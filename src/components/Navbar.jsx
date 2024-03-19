@@ -54,6 +54,13 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
+        <div className="flex items-center"> {/* This div contains the Login button */}
+          <Link to='/login' className='nav-link' onClick={closeNavbar}>
+            <button className='bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 rounded'>
+              Login
+            </button>
+          </Link>
+        </div>
         <div>
           {click && content}
         </div>
