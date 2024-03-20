@@ -1,0 +1,2522 @@
+{
+  "1   PADI SARAVANA": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "PADI SARAVANA STORES",
+      "TIME A.M": "06.00AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "DUNLOP",
+      "TIME A.M": "06.05AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "AMBATTUR OT",
+      "TIME A.M": "06.10AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "VANDALUR ",
+      "TIME A.M": "07.30AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "07.45AM"
+    }
+  ],
+  "1A  THIRUMULLAIVAYAL": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "THIRUMULLAIVAYAL",
+      "TIME A.M": "06.20AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "AVADI",
+      "TIME A.M": "06.25AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "PATTABIRAM ",
+      "TIME A.M": "06.35AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "NEMILICHERY ",
+      "TIME A.M": "06.40AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "VANDALUR ",
+      "TIME A.M": "07.25AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "07.45AM"
+    }
+  ],
+  "2   AYANAVARAM ": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "AYANAVARAM",
+      "TIME A.M": "6.25AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "ESI HOSPITAL",
+      "TIME A.M": "6.30AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "KILPAUK GARDEN",
+      "TIME A.M": "6.40AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "ANNA NAGAR CHINTHAMANI",
+      "TIME A.M": "6.45AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "SHANTHI  COLANY",
+      "TIME A.M": "6.55AM"
+    },
+    {
+      "SL.NO.": 7,
+      "NAME OF THE STOPPING": "VANDALUR",
+      "TIME A.M": "7.40AM"
+    },
+    {
+      "SL.NO.": 8,
+      "NAME OF THE STOPPING": "VIT ",
+      "TIME A.M": "7.50AM"
+    }
+  ],
+  "2A    MADURAVOYAL": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "MADURAVOYAL",
+      "TIME A.M": "7.10AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "PORUR TOLL",
+      "TIME A.M": "7.15AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "PERUNGALATHUR",
+      "TIME A.M": "7.35AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "VANDALUR",
+      "TIME A.M": "7.40AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "7.50AM"
+    }
+  ],
+  "3 ANNA NAGAR ROUNDTANA": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "ANNA NAGAR ROUNDTANA",
+      "TIME A.M": "6.30AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "THIRUMANGALAM",
+      "TIME A.M": "6.35AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "GOLDEN FLATS",
+      "TIME A.M": "6.40AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "VANDALUR",
+      "TIME A.M": "7.25AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "7.45AM"
+    }
+  ],
+  " 4  NOLAMBUR": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "NOLAMBUR",
+      "TIME A.M": "6.30AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "VANAGARAM",
+      "TIME A.M": "6.35AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "VANDALUR",
+      "TIME A.M": "7.30AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "7.45AM"
+    }
+  ],
+  " 4A    MGR UNIVERSITY": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "MGR UNIVERSITY",
+      "TIME A.M": "6.40AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "MADURAVAYAL TOLL ",
+      "TIME A.M": "6.45AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "BYPASS PETROL BUNK",
+      "TIME A.M": "7.00AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "VANDALUR",
+      "TIME A.M": "7.30AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "7.45AM"
+    }
+  ],
+  " 5  PERAMBUR CHURCH ": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "PERAMBUR CHURCH",
+      "TIME A.M": "6.10AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "VENUS",
+      "TIME A.M": "6.15AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "THIRU. VI.KA NAGAR",
+      "TIME A.M": "6.18AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "VIT UNIVERSITY",
+      "TIME A.M": "7.45AM"
+    }
+  ],
+  " 5A   KOLATHUR POLICE STATION": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "KOLATHUR POLICE STATION",
+      "TIME A.M": "6.20AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "SENTHIL NAGAR",
+      "TIME A.M": "6.25AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "PADI BRIDGE",
+      "TIME A.M": "6.35AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "VIT ",
+      "TIME A.M": "7.45AM"
+    }
+  ],
+  "6  PURASAIWAKKAM": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "PURASAIWAKKAM",
+      "TIME A.M": "6.00AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "DASAPRAKASH",
+      "TIME A.M": "6.05AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "GENGU REDDY SUB WAY",
+      "TIME A.M": "6.15AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "CHETPET",
+      "TIME A.M": "6.20AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "VALLUVAR KOTTAM",
+      "TIME A.M": "6.25AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "7.45AM"
+    }
+  ],
+  "6A   POWER HOUSE": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "POWER HOUSE",
+      "TIME A.M": "6.35AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "SAMIYAR MADAM",
+      "TIME A.M": "6.40AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "KASI THEATER",
+      "TIME A.M": "6.45AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "GST ROAD",
+      "TIME A.M": "7.00AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "VANDALUR",
+      "TIME A.M": "7.30AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "7.45AM"
+    }
+  ],
+  "7 AVICHI SCHOOL-VIRUGAMBAKKAM": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "VIRUGAMPAKKAM AVICHI SCHOOL",
+      "TIME A.M": "6.35AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "VALASARAVAKKAM",
+      "TIME A.M": "6.40AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "VANDALUR",
+      "TIME A.M": "7.30AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "VIT UNIVERSITY",
+      "TIME A.M": "7.50AM"
+    }
+  ],
+  "7A  PORUR JUNCTION": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "PORUR JUNCTION",
+      "TIME A.M": "6.50AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "BAIKADAI",
+      "TIME A.M": "6.55AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "KOVUR",
+      "TIME A.M": "7.10AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "KUNDRATHUR BUS STAND",
+      "TIME A.M": "7.20AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "MADHA COLLEGE ",
+      "TIME A.M": "7.25AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "VANDALUR",
+      "TIME A.M": "7.30AM"
+    },
+    {
+      "SL.NO.": 7,
+      "NAME OF THE STOPPING": "VIT UNIVERSITY",
+      "TIME A.M": "7.50AM"
+    }
+  ],
+  "8   K.K.NAGAR": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "K.K NAGAR DEPOT",
+      "TIME A.M": "06.20AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "SIVANPARK",
+      "TIME A.M": "06.25AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "VALASARAVAKKAM",
+      "TIME A.M": "06.30AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "VANDALUR",
+      "TIME A.M": "07.20AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "07.45AM"
+    }
+  ],
+  "8A  K.K.NAGAR VIA PORUR": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "KESAVARTHINI",
+      "TIME A.M": "06.40AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "PORUR JUNCTION",
+      "TIME A.M": "07.00AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "KUNDRATHUR BY PASS",
+      "TIME A.M": "07.10AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "VANDALUR",
+      "TIME A.M": "07.20AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "07.45AM"
+    }
+  ],
+  "8B  KOVUR": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "KOVUR",
+      "TIME A.M": "07.00AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "KUNDRATHUR BY PASS",
+      "TIME A.M": "07.10AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "VANDALUR",
+      "TIME A.M": "07.25 AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "07.45AM"
+    }
+  ],
+  "9  RAMAPURAM JUNCTION  ": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "RAMAPURAM JUNCTION",
+      "TIME A.M": "6.20AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "DLF",
+      "TIME A.M": "6.22AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "SARAVANA STORE (PORUR)",
+      "TIME A.M": "6.27AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "VANDALUR",
+      "TIME A.M": "7.30AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "7.45AM"
+    }
+  ],
+  "9A   AYYAPPANTHANGAL": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "AYYAPPANTHANGAL",
+      "TIME A.M": "6.35AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "KATTUPAKKAM",
+      "TIME A.M": "6.40AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "POONAMALLEE BYPASS ",
+      "TIME A.M": "6.50AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "VANDALUR",
+      "TIME A.M": "7.25AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "7.45AM"
+    }
+  ],
+  "10  CMBT": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "CMBT",
+      "TIME A.M": "06.25AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "MMDA",
+      "TIME A.M": "06.30AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "GST ROAD",
+      "TIME A.M": "06.40AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "VANDALUR",
+      "TIME A.M": "07.25AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "VIT ",
+      "TIME A.M": "07.45AM"
+    }
+  ],
+  "10A VADAPALANI": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "VADAPALANI",
+      "TIME A.M": "06.40AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "NANGANALLUR PETROL BUNK",
+      "TIME A.M": "06.50AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "MEENAMBAKKAM",
+      "TIME A.M": "06.55AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "PALLAVARAM  PETROL BUNK",
+      "TIME A.M": "07.00AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "CHROMPET - BUS STAND",
+      "TIME A.M": "07.05AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "CHROMPET - PARVATHI HOSPITAL",
+      "TIME A.M": "07.08AM"
+    },
+    {
+      "SL.NO.": 7,
+      "NAME OF THE STOPPING": "VANDALUR",
+      "TIME A.M": "07.20AM"
+    },
+    {
+      "SL.NO.": 8,
+      "NAME OF THE STOPPING": "VIT ",
+      "TIME A.M": "07.45AM"
+    }
+  ],
+  "11   STERLING ROAD": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "NELSON MANICKAM ROAD",
+      "TIME A.M": "6.10AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "VALLUVAR KOTTAM",
+      "TIME A.M": "6.15AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "POTHYS(T.NAGAR)",
+      "TIME A.M": "6.20AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "AYODHYA MANDAPAM",
+      "TIME A.M": "6.25AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "ASHOK PILLAR",
+      "TIME A.M": "6.30AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "VELACHERY RAILWAY STATION",
+      "TIME A.M": "6.45AM"
+    },
+    {
+      "SL.NO.": 7,
+      "NAME OF THE STOPPING": "PALIKARANAI",
+      "TIME A.M": "6.50AM"
+    },
+    {
+      "SL.NO.": 8,
+      "NAME OF THE STOPPING": "VIT ",
+      "TIME A.M": "7.45AM"
+    }
+  ],
+  "11A   STERLING ROAD -  AYODHYA MANDAPAM": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "AYODHYA MANDAPAM",
+      "TIME A.M": "6.25AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "ASHOK PILLAR",
+      "TIME A.M": "6.30AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "KASI THEATER",
+      "TIME A.M": "6.35AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "VELACHERY RAILWAY STATION",
+      "TIME A.M": "6.50AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "PALLIKARANI",
+      "TIME A.M": "6.55AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "MEDAVAKKAM JUNCTION",
+      "TIME A.M": "7.00AM"
+    },
+    {
+      "SL.NO.": 7,
+      "NAME OF THE STOPPING": "VIT ",
+      "TIME A.M": "7.45AM"
+    }
+  ],
+  "12   RED HILLS": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "REDHILLS",
+      "TIME A.M": "5.55AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "KAVANKARAI",
+      "TIME A.M": "6.00AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "PUZAL CAMP",
+      "TIME A.M": "6.05AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "SURAPET",
+      "TIME A.M": "6.10AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "KALIKUPPAM",
+      "TIME A.M": "6.15AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "PUDHUR",
+      "TIME A.M": "6.20AM"
+    },
+    {
+      "SL.NO.": 7,
+      "NAME OF THE STOPPING": "THIRUMUDIWAKKAM",
+      "TIME A.M": "7.20AM"
+    },
+    {
+      "SL.NO.": 8,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "7.45AM"
+    }
+  ],
+  "12A AMBATTUR OT": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "AMBATTUR OT",
+      "TIME A.M": "6.35AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "DUNLOP",
+      "TIME A.M": "6.45AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "AMBATTUR EXCHANGE",
+      "TIME A.M": "6.50AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "VANDALUR",
+      "TIME A.M": "7.30AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "7.45AM"
+    }
+  ],
+  "13 MANDAVELI": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "MANDAVELI",
+      "TIME A.M": "6.25AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "KALIYAPPA HOSPITAL",
+      "TIME A.M": "6.28AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "MOOPANAR BRIDGE",
+      "TIME A.M": "6.30AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "DEVAR  STATUE ",
+      "TIME A.M": "6.35AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "7.50AM"
+    }
+  ],
+  "13A SAIDAPET": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "SAIDAPET ",
+      "TIME A.M": "06.30AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "GUINDY RACE COURCE ",
+      "TIME A.M": "06.35AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "ADAMBAKKAM POLICE BOOTH",
+      "TIME A.M": "06.45AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "NGO COLONY",
+      "TIME A.M": "06.50AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "07.45AM"
+    }
+  ],
+  "13B MANDAVELI- BALAJI DENTAL COLLEGE": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "BALAJI DENTAL COLLEGE",
+      "TIME A.M": "07.00AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "JEYACHANDRAN",
+      "TIME A.M": "07.05AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "MEDAVAKKAM JUNCTION",
+      "TIME A.M": "07.15AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "KALISWARY OIL MILL",
+      "TIME A.M": "07.20AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "07.45AM"
+    }
+  ],
+  "14  TRIPLICANE  ": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "TRIPLICANE",
+      "TIME A.M": "06.00AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "ROYAPETTAH",
+      "TIME A.M": "06.05AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "ALWARPET JUNCTION",
+      "TIME A.M": "06.15AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "TTK ROAD, CHAMIERS ROAD JUNCTION",
+      "TIME A.M": "06.20AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "VIT ",
+      "TIME A.M": "07.45AM"
+    }
+  ],
+  "14A   GANDHIMANDAPAM": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "GANDHIMANDAPAM",
+      "TIME A.M": "06.35AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "PHOENIX MALL",
+      "TIME A.M": "06.45AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "VELACHERY   100 FEET ROAD",
+      "TIME A.M": "07.00AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "VIT ",
+      "TIME A.M": "07.45AM"
+    }
+  ],
+  "14B  TRIPLICANE - VELACHERY BUS STAND": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "VELACHERY  BUS STAND",
+      "TIME A.M": "07.00AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "VIJAYANAGAR",
+      "TIME A.M": "07.03AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "MEDAVAKKAM MAMBAKKAM JUNCTION",
+      "TIME A.M": "07.20AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "VIT ",
+      "TIME A.M": "07.45AM"
+    }
+  ],
+  "15  THIRUVOTTIYUR": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "TIRUVOTTIYUR",
+      "TIME A.M": "6.00AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "N-4",
+      "TIME A.M": "6.10AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "KASIMADU SIGNAL",
+      "TIME A.M": "6.15AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "KALMANDAPAM",
+      "TIME A.M": "6.17AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "BEACH STATION",
+      "TIME A.M": "6.18AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "PARRY'S CORNOR",
+      "TIME A.M": "6.20AM"
+    },
+    {
+      "SL.NO.": 7,
+      "NAME OF THE STOPPING": "KELAMBAKKAM",
+      "TIME A.M": "7.35AM"
+    },
+    {
+      "SL.NO.": 8,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "7.50AM"
+    }
+  ],
+  "15A  PARRYS  ": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "PARRY'S",
+      "TIME A.M": "06.10AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "EZHILAGAM",
+      "TIME A.M": "06.15AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "KANNAGI STATUE",
+      "TIME A.M": "06.18AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "ALL INDIA RADIO",
+      "TIME A.M": "06.23AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "KELAMBAKKAM",
+      "TIME A.M": "07.25AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "07.45AM"
+    }
+  ],
+  "15B   SANTHOME": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "SANTHOME",
+      "TIME A.M": "06.25AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "SATHYA STUDIOS",
+      "TIME A.M": "06.35AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "ADYAR DEPOT",
+      "TIME A.M": "06.40AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "THIRUVANMIYUR",
+      "TIME A.M": "06.45AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "SRP TOOLS",
+      "TIME A.M": "06.50AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "THORAIPAKKAM",
+      "TIME A.M": "07.00AM"
+    },
+    {
+      "SL.NO.": 7,
+      "NAME OF THE STOPPING": "SHOLINGANALLUR",
+      "TIME A.M": "0710AM"
+    },
+    {
+      "SL.NO.": 8,
+      "NAME OF THE STOPPING": "NAVALUR",
+      "TIME A.M": "07.20AM"
+    },
+    {
+      "SL.NO.": 9,
+      "NAME OF THE STOPPING": "KELAMBAKKAM",
+      "TIME A.M": "07.25AM"
+    },
+    {
+      "SL.NO.": 10,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "07.40AM"
+    }
+  ],
+  "16  BESANT NAGAR": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "BESANT NAGAR THEOSOPHICAL SOCIETY",
+      "TIME A.M": "6.40AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "BESANT NAGAR",
+      "TIME A.M": "6.42AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "NEELANGARAI",
+      "TIME A.M": "6.43AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "SHOLINGANALLUR",
+      "TIME A.M": "7.45AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "KELAMBAKKAM JUNCTION",
+      "TIME A.M": "7.30AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "VIT UNIVERSITY",
+      "TIME A.M": "7.50AM"
+    }
+  ],
+  "16A  VGP": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "VGP",
+      "TIME A.M": "7.00AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "SHOLINGANALLUR",
+      "TIME A.M": "7.10AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "PERUMBAKKAM",
+      "TIME A.M": "7.15AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "MEDAVAKKAM",
+      "TIME A.M": "7.20AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "MAMBAKKAM JUNCTION",
+      "TIME A.M": "7.40AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "VIT UNIVERSITY",
+      "TIME A.M": "7.45AM"
+    }
+  ],
+  "17 KUTCHERY ROAD ": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "KUTCHERY ROAD",
+      "TIME A.M": "6.10AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "LUZ",
+      "TIME A.M": "6.15AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "MYLAPORE TANK",
+      "TIME A.M": "6.20AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "MANDAVELI BSNL OFFICE",
+      "TIME A.M": "6.25AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "ADYAR AAVIN",
+      "TIME A.M": "6.30AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "TELEPHONE EXCHANGE ADYAR",
+      "TIME A.M": "6.35AM"
+    },
+    {
+      "SL.NO.": 7,
+      "NAME OF THE STOPPING": "ADYAR DEPOT",
+      "TIME A.M": "6.40AM"
+    },
+    {
+      "SL.NO.": 8,
+      "NAME OF THE STOPPING": "THIRUVANMIYUR JAYANTHI",
+      "TIME A.M": "6.45AM"
+    },
+    {
+      "SL.NO.": 9,
+      "NAME OF THE STOPPING": "SRP TOOLS",
+      "TIME A.M": "6.50AM"
+    },
+    {
+      "SL.NO.": 10,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "7.45AM"
+    }
+  ],
+  "17A  TANSI NAGAR  ": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "TANSI NAGAR",
+      "TIME A.M": "6.50AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "VELACHERY",
+      "TIME A.M": "6.55AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "PALLIKARANAI",
+      "TIME A.M": "7.20AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "MEDAVAKKAM",
+      "TIME A.M": "7.30AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "7.45AM"
+    }
+  ],
+  "18  KUNDRATHUR ": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "KUNDRATHUR ANDAR KUPPAM",
+      "TIME A.M": "6.40AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "ANAGAPUTHUR BUS STAND",
+      "TIME A.M": "6.45AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "SANKAR NAGAR",
+      "TIME A.M": "6.50AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "CHROMPET BUS STAND",
+      "TIME A.M": "7.05AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "VANDALUR",
+      "TIME A.M": "7.30AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "VIT ",
+      "TIME A.M": "7.50AM"
+    }
+  ],
+  "18A   PALLAVARAM": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "PALLAVARAM MUNICIPALDITY",
+      "TIME A.M": "6.55AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "CHROMPET SARAVANA STORE",
+      "TIME A.M": "7.00AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "RAJENDRA PRASAD ROAD",
+      "TIME A.M": "7.05AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "BHARATHA MATHA STREET",
+      "TIME A.M": "7.10AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "MCC COLLEGE",
+      "TIME A.M": "7.15AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "VIT ",
+      "TIME A.M": "7.45AM"
+    }
+  ],
+  "18 B  PALLAVARAM": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "PALLAVARAM MUNICIPALDITY",
+      "TIME A.M": "7.00AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "CHROMPET SARAVANA STORE",
+      "TIME A.M": "7.05AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "RAJENDRA PRASAD ROAD",
+      "TIME A.M": "7.10AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "BHARATHA MATHA STREET",
+      "TIME A.M": "7.15AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "MCC COLLEGE",
+      "TIME A.M": "7.20AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "VIT ",
+      "TIME A.M": "7.45AM"
+    }
+  ],
+  " 19   NATRAJA THEATER": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "NATRAJA THEATER",
+      "TIME A.M": "6.20AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "CHENNAI CORPORATION  (RIPON BUILDING)",
+      "TIME A.M": "6.25AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "PANTHEON ROAD  ( EGMORE RAMADA HOTEL )",
+      "TIME A.M": "6.30AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "DAILY THANTHI",
+      "TIME A.M": "6.35AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "AMINJIKARAI",
+      "TIME A.M": "6.45AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "VANDALUR",
+      "TIME A.M": "7.30AM"
+    },
+    {
+      "SL.NO.": 7,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "7.50AM"
+    }
+  ],
+  " 19A   SKYWALK": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "SKYWALK",
+      "TIME A.M": "6.50AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "NERKUNDRAM",
+      "TIME A.M": "6.55AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "MATHURAVOYAL  TOLL ",
+      "TIME A.M": "7.10AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "VANDALUR",
+      "TIME A.M": "7.40AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "7.50AM"
+    }
+  ],
+  "20  ADYAR AAVIN ": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "ADYAR AAVIN ",
+      "TIME A.M": "6.35AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "ADAYAR TELEPHONE EXANGE",
+      "TIME A.M": "6.40AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "THIRUVANMIYUR JAYANTHI",
+      "TIME A.M": "6.45AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "SRP TOOLS",
+      "TIME A.M": "6.50AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "PTC QUARTERS",
+      "TIME A.M": "6.55AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "NAVALUR",
+      "TIME A.M": "7.00AM"
+    },
+    {
+      "SL.NO.": 7,
+      "NAME OF THE STOPPING": "KELAMBAKKAM JUNCTION",
+      "TIME A.M": "7.30AM"
+    },
+    {
+      "SL.NO.": 8,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "7.45AM"
+    }
+  ],
+  "20A  - SRP TOOLS": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "SRP TOOLS",
+      "TIME A.M": "6.45AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "KANDANCHAVADI",
+      "TIME A.M": "6.55AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "KARAPAKKAM",
+      "TIME A.M": "7.00AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "SHOLINGANALLUR JUNCTION",
+      "TIME A.M": "7.05AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "KELAMBAKKAM JUNCTION",
+      "TIME A.M": "7.25AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "7.45AM"
+    }
+  ],
+  "21  CHENGALPATTU": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "CHENGALPATTU (GOVT. HOSPITAL)",
+      "TIME A.M": "6.55AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "S.P.KOIL",
+      "TIME A.M": "7.00AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "MARAIMALAI NAGAR",
+      "TIME A.M": "7.20AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "KOTTANKULATHUR",
+      "TIME A.M": "7.25AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "VIT ",
+      "TIME A.M": "7.50AM"
+    }
+  ],
+  "21A POTHERY- MAHENDRA CITY": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "MAHENDRA CITY",
+      "TIME A.M": "7.00AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "POTHERY",
+      "TIME A.M": "7.10AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "GUDUVANCHERI",
+      "TIME A.M": "7.30AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "URAPAKKAM",
+      "TIME A.M": "7.40AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "VANDALUR ZOO",
+      "TIME A.M": "7.45AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "VIT ",
+      "TIME A.M": "7.50AM"
+    }
+  ],
+  "22  MUDICHUR": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "MUDICHUR (ATTA COMPANY)",
+      "TIME A.M": "6.45AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "TAMBARAM HENKALA",
+      "TIME A.M": "6.55AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "TAMBARAM  RLY STATION",
+      "TIME A.M": "7.00AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "IRUMBULIYUR",
+      "TIME A.M": "7.05AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "PEERKANKARANAI",
+      "TIME A.M": "7.07AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "PERUNGALATHUR",
+      "TIME A.M": "7.15AM"
+    },
+    {
+      "SL.NO.": 7,
+      "NAME OF THE STOPPING": "SADHANATHAPURAM",
+      "TIME A.M": "7.20AM"
+    },
+    {
+      "SL.NO.": 8,
+      "NAME OF THE STOPPING": "ALAPAKKAM",
+      "TIME A.M": "7.25AM"
+    },
+    {
+      "SL.NO.": 9,
+      "NAME OF THE STOPPING": "NEDUKUNDRAM TVS",
+      "TIME A.M": "7.30AM"
+    },
+    {
+      "SL.NO.": 10,
+      "NAME OF THE STOPPING": "KOLAPAKKAM",
+      "TIME A.M": "7.35AM"
+    },
+    {
+      "SL.NO.": 11,
+      "NAME OF THE STOPPING": "KANDIGAI",
+      "TIME A.M": "7.40AM"
+    },
+    {
+      "SL.NO.": 12,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "7.45AM"
+    }
+  ],
+  "22A  MADRAS CHRISTIAN COLLEGE (MCC)": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "MADRAS CHRISTIAN COLLEGE (MCC) ",
+      "TIME A.M": "7.00AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "CAMP ROAD",
+      "TIME A.M": "7.25AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "MAHALAKSHMI NAGAR",
+      "TIME A.M": "7.30AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "BHARATH UNIVERSITY",
+      "TIME A.M": "7.40AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "MAPPEDU",
+      "TIME A.M": "7.45AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "7.50AM"
+    }
+  ],
+  "23   MOOLAKADAI": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "MOOLAKADAI",
+      "TIME A.M": "6.15AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "MADHAVARAM ROUNDANA",
+      "TIME A.M": "6.20AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "RETTERI",
+      "TIME A.M": "6.25AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "SENTHIL NAGAR",
+      "TIME A.M": "6.30AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "VANDALUR",
+      "TIME A.M": "7.25AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "VIT ",
+      "TIME A.M": "7.45AM"
+    }
+  ],
+  "23A   SENTHIL NAGAR": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "SENTHIL NAGAR",
+      "TIME A.M": "6.30AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "PADI",
+      "TIME A.M": "6.40AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "ANNA NAGAR WEST DEPOT",
+      "TIME A.M": "6.50AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "VANDALUR",
+      "TIME A.M": "7.30AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "VIT ",
+      "TIME A.M": "7.45AM"
+    }
+  ],
+  "24 AMMA NANA": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "AMMA NANA",
+      "TIME A.M": "6.30AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "MOOPPANAR BRIDGE",
+      "TIME A.M": "6.35AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "KOTTURPURAM ",
+      "TIME A.M": "6.40AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "MADHYA KAILASH",
+      "TIME A.M": "6.45AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "SRP TOOLS",
+      "TIME A.M": "6.55AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "KELAMBAKKAM JUNCTION",
+      "TIME A.M": "7.30AM"
+    },
+    {
+      "SL.NO.": 7,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "7.45AM"
+    }
+  ],
+  "24A SHOLINGANALLUR": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "SHOLINGANALLUR",
+      "TIME A.M": "7.15AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "PADUR HINDUSTAN COLLEGE",
+      "TIME A.M": "7.25AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "KELAMBAKKAM JUNCTION",
+      "TIME A.M": "7.30AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "7.45AM"
+    }
+  ],
+  "25  MADIPAKKAM  RAM NAGAR": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "RAM NAGAR",
+      "TIME A.M": "06.50AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "POONNIAMMAN KOIL ",
+      "TIME A.M": "07.00AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "UTI BANK",
+      "TIME A.M": "07.10AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "MADIPAKKAM KOOT ROAD",
+      "TIME A.M": "07.25AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "07.45AM"
+    }
+  ],
+  "25A  MADIPAKKAM - KEELKATTALAI": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "KEELKATTALAI",
+      "TIME A.M": "06.50AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "KOVILAMBAKKAM",
+      "TIME A.M": "06.55AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "VELLAKAL",
+      "TIME A.M": "07.05AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "MEDAVAKKAM  JUNCTION",
+      "TIME A.M": "07.10AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "07.45AM"
+    }
+  ],
+  "25B MADIPAKKAM": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "MADIPAKKAM",
+      "TIME A.M": "06.50AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "KOVILAMBAKKAM",
+      "TIME A.M": "06.08AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "MEDAVAKKAM   ",
+      "TIME A.M": "07.10AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "SITHALAPAKKAM",
+      "TIME A.M": "07.15AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "PONMAR",
+      "TIME A.M": "07.20AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "SBIOA",
+      "TIME A.M": "07.30AM"
+    },
+    {
+      "SL.NO.": 7,
+      "NAME OF THE STOPPING": "MAMBAKKAM",
+      "TIME A.M": "07.40AM"
+    },
+    {
+      "SL.NO.": 8,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "07.45AM"
+    }
+  ],
+  "26  SANTHOSAPURAM ": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "SANTHOSAPURAM",
+      "TIME A.M": "7.10AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "SEMBAKKAM",
+      "TIME A.M": "7.13AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "KAMARAJAPURAM",
+      "TIME A.M": "7.15AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "MADAMBAKKAM JUNCTION",
+      "TIME A.M": "7.35AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "7.50AM"
+    }
+  ],
+  "26A  RAJKILPAKKAM": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "RAJAKILPAKKAM",
+      "TIME A.M": "7.20AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "SUDHARSHAN NAGAR",
+      "TIME A.M": "7.25AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "KOZHIPANNAI",
+      "TIME A.M": "7.30AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "MADAMBAKKAM JUNCTION",
+      "TIME A.M": "7.35AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "7.50AM"
+    }
+  ],
+  "27  ASHOK PILLAR  ": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "ASHOK PILLAR",
+      "TIME A.M": "06.45AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "KASI THEATRE",
+      "TIME A.M": "06.50AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "EKKATU THANGAL",
+      "TIME A.M": "06.55AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "ALANDUR METRO",
+      "TIME A.M": "07.00AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "MAMBAKKAM",
+      "TIME A.M": "07.40AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "07.45AM"
+    }
+  ],
+  "27A NGO COLONY": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "NGO COLONY",
+      "TIME A.M": "7.00AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "BALAJI DENTAL COLLEGE",
+      "TIME A.M": "7.15AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "PALLIKARANAI",
+      "TIME A.M": "7.25AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "JEYACHANDRAN TEXTILES",
+      "TIME A.M": "7.28AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "MAMBAKKAM",
+      "TIME A.M": "7.40AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "7.45AM"
+    }
+  ],
+  "28  ICF (NATHAMUNI)": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "NATHAMUNI",
+      "TIME A.M": "6.20AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "ICF",
+      "TIME A.M": "6.25AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "GANDHI HOSPITAL",
+      "TIME A.M": "6.27AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "K4 POLICE STATION",
+      "TIME A.M": "6.30AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "18TH MAIN ROAD",
+      "TIME A.M": "6.35AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "AAVIN BOTH",
+      "TIME A.M": "6.40AM"
+    },
+    {
+      "SL.NO.": 7,
+      "NAME OF THE STOPPING": "THIRUMANGALAM",
+      "TIME A.M": "6.40AM"
+    },
+    {
+      "SL.NO.": 8,
+      "NAME OF THE STOPPING": "GOLDEN FLATS",
+      "TIME A.M": "6.40AM"
+    },
+    {
+      "SL.NO.": 9,
+      "NAME OF THE STOPPING": "NOLAMBUR BYE PASS",
+      "TIME A.M": "6.45AM"
+    },
+    {
+      "SL.NO.": 10,
+      "NAME OF THE STOPPING": "VANDALUR",
+      "TIME A.M": "7.30AM"
+    },
+    {
+      "SL.NO.": 11,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "7.45AM"
+    }
+  ],
+  "28A MUGAPPAIR": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "MUGAPPAIR",
+      "TIME A.M": "6.40AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "GOLDEN FLATS",
+      "TIME A.M": "6.45AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "NOLAMBUR BYE PASS",
+      "TIME A.M": "6.50AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "PORUR TOLL GATE",
+      "TIME A.M": "7.00AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "VANDALUR",
+      "TIME A.M": "7.30AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "7.45AM"
+    }
+  ],
+  "29 KALPAKKAM": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "KALPAKKAM",
+      "TIME A.M": "05.50AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "VENGAMBAKKAM",
+      "TIME A.M": "06.00AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "MAHABALIPURAM KOOT ROAD(POONCHERY)",
+      "TIME A.M": "06.35AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "PAIYANUR",
+      "TIME A.M": "06.40AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "ALATHUR",
+      "TIME A.M": "06.45AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "THANDALAM",
+      "TIME A.M": "06.50AM"
+    },
+    {
+      "SL.NO.": 7,
+      "NAME OF THE STOPPING": "THIRUPORUR BUS STAND",
+      "TIME A.M": "06.55AM"
+    },
+    {
+      "SL.NO.": 8,
+      "NAME OF THE STOPPING": "S.S.N COLLEGE",
+      "TIME A.M": "07.05AM"
+    },
+    {
+      "SL.NO.": 9,
+      "NAME OF THE STOPPING": "KELAMBAKKAM",
+      "TIME A.M": "07.20AM"
+    },
+    {
+      "SL.NO.": 10,
+      "NAME OF THE STOPPING": "MAMBAKKAM",
+      "TIME A.M": "07.35AM"
+    },
+    {
+      "SL.NO.": 11,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "07.45AM"
+    }
+  ],
+  "30 THIRUVALLUR ": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "THIRUVALLUR BUS STAND",
+      "TIME A.M": "06.00AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "PUTTLUR",
+      "TIME A.M": "06.20AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "SEVAPATET",
+      "TIME A.M": "06.25AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "VEPPAMPATTU RLY.",
+      "TIME A.M": "06.35AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "THIRUNINDRAVUR",
+      "TIME A.M": "06.40AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "JAYA SCHOOL BUS STOP",
+      "TIME A.M": "06.50AM"
+    },
+    {
+      "SL.NO.": 7,
+      "NAME OF THE STOPPING": "RING ROAD JUNCTION",
+      "TIME A.M": "07.00AM"
+    },
+    {
+      "SL.NO.": 8,
+      "NAME OF THE STOPPING": "VANDALUR",
+      "TIME A.M": "07.30AM"
+    },
+    {
+      "SL.NO.": 9,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "07.45AM"
+    }
+  ],
+  "31 KANCHIPURAM": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "KANCHIPURAM",
+      "TIME A.M": "06.00AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "WALAJABAD",
+      "TIME A.M": "06.20AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "ORAGADAM",
+      "TIME A.M": "06.35AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "PADAPAI",
+      "TIME A.M": "06.45AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "KARASANGAL",
+      "TIME A.M": "07.00AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "MANNIVAKKAM JUNCTION",
+      "TIME A.M": "07.05AM"
+    },
+    {
+      "SL.NO.": 7,
+      "NAME OF THE STOPPING": "VANDALUR",
+      "TIME A.M": "0.20AM"
+    },
+    {
+      "SL.NO.": 8,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "07.45AM"
+    }
+  ],
+  "32 THIRUVANMIYUR": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "THIRUVANMIYUR",
+      "TIME A.M": "6.40AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "KOTTIVAKKAM",
+      "TIME A.M": "6.50AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "PALAVAKKAM",
+      "TIME A.M": "6.55AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "NEELANKARAI",
+      "TIME A.M": "7.00AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "AKKARI",
+      "TIME A.M": "7.05AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "MGM",
+      "TIME A.M": "7.10AM"
+    },
+    {
+      "SL.NO.": 7,
+      "NAME OF THE STOPPING": "MUTTUKADU",
+      "TIME A.M": "7.15AM"
+    },
+    {
+      "SL.NO.": 8,
+      "NAME OF THE STOPPING": "KOVALAM",
+      "TIME A.M": "7.20AM"
+    },
+    {
+      "SL.NO.": 9,
+      "NAME OF THE STOPPING": "KELAMBAKKAM",
+      "TIME A.M": "7.30AM"
+    },
+    {
+      "SL.NO.": 10,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "7.45AM"
+    }
+  ],
+  "33 MADHYAKAILASH": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "MADHYAKAILASH",
+      "TIME A.M": "06.40AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "SRP TOOLS",
+      "TIME A.M": "06.45AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "KANDANCHAVADI",
+      "TIME A.M": "06.50AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "THORAIPAKKAM",
+      "TIME A.M": "06.55AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "SHOLINGANALLUR",
+      "TIME A.M": "07.00AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "KUMARAN NAGAR",
+      "TIME A.M": "07.05AM"
+    },
+    {
+      "SL.NO.": 7,
+      "NAME OF THE STOPPING": "NAVALUR",
+      "TIME A.M": "07.10AM"
+    },
+    {
+      "SL.NO.": 8,
+      "NAME OF THE STOPPING": "PADUR",
+      "TIME A.M": "07.15AM"
+    },
+    {
+      "SL.NO.": 9,
+      "NAME OF THE STOPPING": "KELAMBAKKAM",
+      "TIME A.M": "07.20AM"
+    },
+    {
+      "SL.NO.": 10,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "07.45AM"
+    }
+  ],
+  "34 VELACHERY": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "VIJAYANAGAR JUNCTION",
+      "TIME A.M": "6.45AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "KAIVELI JUNCTION",
+      "TIME A.M": "6.50AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "BALAJI DENTAL COLLEGE",
+      "TIME A.M": "7.00AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "PALLIKARANAI",
+      "TIME A.M": "7.05AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "MEDAVAKKAM",
+      "TIME A.M": "7.10AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "MAMBAKKAM",
+      "TIME A.M": "7.30AM"
+    },
+    {
+      "SL.NO.": 7,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "7.45AM"
+    }
+  ],
+  "35 KAIVELI": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "KAIVELI JUNCTION",
+      "TIME A.M": "6.50AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "BALAJI DENTAL COLLEGE",
+      "TIME A.M": "7.00AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "PALLIKARANAI",
+      "TIME A.M": "7.05AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "MEDAVAKKAM",
+      "TIME A.M": "7.15AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "CHITALAPAKKAM",
+      "TIME A.M": "7.25AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "CHITALAPAKKAM KOOT ROAD",
+      "TIME A.M": "7.27AM"
+    },
+    {
+      "SL.NO.": 7,
+      "NAME OF THE STOPPING": "MAMBAKKAM",
+      "TIME A.M": "7.30AM"
+    },
+    {
+      "SL.NO.": 8,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "7.45AM"
+    }
+  ],
+  "36 MADHAVARAM ROUNDANA": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "MADHAVARAM ROUNDANA",
+      "TIME A.M": "6.30AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "RETTERY",
+      "TIME A.M": "6.35AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "SENTHIL NAGAR",
+      "TIME A.M": "6.40AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "PADI",
+      "TIME A.M": "6.45AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "THIRUMANGALAM",
+      "TIME A.M": "6.50AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "ROHINI THEATRE",
+      "TIME A.M": "6.55AM"
+    },
+    {
+      "SL.NO.": 7,
+      "NAME OF THE STOPPING": "MADURAVOYAL",
+      "TIME A.M": "7.05AM"
+    },
+    {
+      "SL.NO.": 8,
+      "NAME OF THE STOPPING": "PORUR TOLL",
+      "TIME A.M": "7.15AM"
+    },
+    {
+      "SL.NO.": 9,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "7.45AM"
+    }
+  ],
+  "37 THIRUMANGALAM": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "ANNA NAGAR ROUNDTANA",
+      "TIME A.M": "6.40AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "THIRUMANGALAM",
+      "TIME A.M": "6.45AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "7.45AM"
+    }
+  ],
+  " 38 GOLDEN FLATS": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "GOLDEN FLATS",
+      "TIME A.M": "6.50AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "WAVIN",
+      "TIME A.M": "6.55AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "NOLAMBUR",
+      "TIME A.M": "7.00AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "7.45AM"
+    }
+  ],
+  "39 NANGANALLUR ": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "NANGANALLUR J.K MAHAL",
+      "TIME A.M": "06.40AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "NANGANALLUR PARK",
+      "TIME A.M": "06.45AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "MEENAMBAKKAM",
+      "TIME A.M": "06.50AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "PALLAVARAM",
+      "TIME A.M": "06.55AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "CHROMPET ",
+      "TIME A.M": "07.00AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "TAMBARAM",
+      "TIME A.M": "07.05AM"
+    },
+    {
+      "SL.NO.": 7,
+      "NAME OF THE STOPPING": "IRUMBULIYUR",
+      "TIME A.M": "07.10AM"
+    },
+    {
+      "SL.NO.": 8,
+      "NAME OF THE STOPPING": "PERUNGALATHUR",
+      "TIME A.M": "07.15AM"
+    },
+    {
+      "SL.NO.": 9,
+      "NAME OF THE STOPPING": "VANDALUR GATE",
+      "TIME A.M": "07.25AM"
+    },
+    {
+      "SL.NO.": 10,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "07.45AM"
+    }
+  ],
+  "40 AVADI ": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "AVADI BUSSTAND",
+      "TIME A.M": "06.20AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "MURUGAPPA POLYTECHNIC",
+      "TIME A.M": "06.35AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "VAISHNAVI NAGAR",
+      "TIME A.M": "06.40AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "THIRUMULLAIVOYAL",
+      "TIME A.M": "06.45AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "AMBATTUR OT.",
+      "TIME A.M": "06.50AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "AYAPAKKAM JUNCTION",
+      "TIME A.M": "07.10AM"
+    },
+    {
+      "SL.NO.": 7,
+      "NAME OF THE STOPPING": "AMBATTUR TELEPHONE EXANGE.",
+      "TIME A.M": "07.15AM"
+    },
+    {
+      "SL.NO.": 8,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "07.45AM"
+    }
+  ],
+  "41 DLF APTS": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "DLF APTS",
+      "TIME A.M": "7.00AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "BOLLINENI HILLS ",
+      "TIME A.M": "7.05 AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "SITHALAPAKKAM KOOT ROAD",
+      "TIME A.M": "7.25 AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "SITHALAPAKKAM HOUSING BOARD",
+      "TIME A.M": "7.30AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "MAMBAKKAM",
+      "TIME A.M": "7.40 AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "7.45AM "
+    }
+  ],
+  "42 THILLAI GANGA NAGAR SUBWAY": [
+    {
+      "SL.NO.": 1,
+      "NAME OF THE STOPPING": "THILLAI GANGA NAGAR SUBWAY",
+      "TIME A.M": "06.55AM"
+    },
+    {
+      "SL.NO.": 2,
+      "NAME OF THE STOPPING": "VANUVAMPET CHURCH",
+      "TIME A.M": "07.00AM"
+    },
+    {
+      "SL.NO.": 3,
+      "NAME OF THE STOPPING": "ADAMBAKKAM POLICE BOOTH",
+      "TIME A.M": "07.02AM"
+    },
+    {
+      "SL.NO.": 4,
+      "NAME OF THE STOPPING": "BALAJI DENTAL COLLEGE",
+      "TIME A.M": "07.12AM"
+    },
+    {
+      "SL.NO.": 5,
+      "NAME OF THE STOPPING": "PALLIKARANI",
+      "TIME A.M": "07.15AM"
+    },
+    {
+      "SL.NO.": 6,
+      "NAME OF THE STOPPING": "JEYACHANDRAN TEXTILES",
+      "TIME A.M": "07.18AM"
+    },
+    {
+      "SL.NO.": 7,
+      "NAME OF THE STOPPING": "VIT",
+      "TIME A.M": "07.40AM"
+    }
+  ]
+}
