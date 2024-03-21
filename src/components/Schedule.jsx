@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import MenuItem from '@mui/material/MenuItem';
 import ScheduleStyle from './ScheduleStyle';
-import busRoutesData from '../../data_routes/routes_data.json';
+// import busRoutesData from '../../backend/data_routes/routes_data.json';
 import { Tabs, TabsHeader, TabsBody, Tab, TabPanel } from "@material-tailwind/react";
 import Accordion from '@mui/material/Accordion';
 import AccordionDetails from '@mui/material/AccordionDetails';
@@ -12,7 +12,8 @@ import * as React from 'react';
 import Typography from '@mui/material/Typography';
 import AddIcon from '@mui/icons-material/Add';
 
-export default function Schedule() {
+export default function Schedule({busdata}) {
+  const busRoutesData=busdata[5];
   const [selectedRoute, setSelectedRoute] = useState('');
   const [selectedTiming, setSelectedTiming] = useState(''); 
   const [selectedRouteStoppings, setSelectedRouteStoppings] = useState([]);
@@ -54,7 +55,7 @@ export default function Schedule() {
   const data = getCalendarDates().map(date => ({
     label: date,
     value: date,
-    desc: `Routes for ${date} will be added soon`,
+    // desc: `Routes for ${date} will be added soon`,
   }));
 
   return (
@@ -63,7 +64,7 @@ export default function Schedule() {
       <div style={{ zIndex: 0, position: 'relative', minHeight: '100vh' }}>
         <div style={{
           position: 'sticky',
-          top: '10%',
+          top: '15%',
           left: '10%',
           height: '75vh',
           width: '80vw',

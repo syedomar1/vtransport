@@ -143,7 +143,7 @@ function extractDataFromSheet4(sheet) {
 }
 
 // Function to extract data from Excel file
-function DataExtraction(filePath,filePath2) {
+export function DataExtraction(filePath,filePath2) {
     // console.log('Reading file:', filePath); // Debug statement
     // const fileData = fs.readFileSync(filePath);
     // const workbook = xlsx.read(fileData, { type: 'buffer' });
@@ -167,24 +167,28 @@ function DataExtraction(filePath,filePath2) {
     const fileData2=fs.readFileSync(filePath2);
     const workbook2=xlsx.read(fileData2,{type:'buffer'});
     sheets[5]=extractDataFromSheet4(workbook2.Sheets[workbook2.SheetNames[0]]);
-    console.log(sheets[5]);
+    return sheets;
+    // console.log(sheets[5]);
 }
 
 
-// Function to write data to JSON file
-function writeJSONFile(data, outputPath) {
-    const jsonData = JSON.stringify(data, null, 2);
-    fs.writeFileSync(outputPath, jsonData);
-    console.log(`Data written to ${outputPath}`);
-}
+// // Function to write data to JSON file
+// function writeJSONFile(data, outputPath) {
+//     const jsonData = JSON.stringify(data, null, 2);
+//     fs.writeFileSync(outputPath, jsonData);
+//     console.log(`Data written to ${outputPath}`);
+// }
+
 
 // Usage
-const filePath2 = "./data_routes/bus_timings.xlsx"; // Assuming the script and data are in the same directory
-const filePath="./data_routes/bus_locations.xlsx";
-// console.log('File path:', filePath); // Debug statement
-DataExtraction(filePath,filePath2);
+// const filePath2 = "./data_routes/bus_timings.xlsx"; // Assuming the script and data are in the same directory
+// const filePath="./data_routes/bus_locations.xlsx";
+// // console.log('File path:', filePath); // Debug statement
+// DataExtraction(filePath,filePath2);
 
  // Debug statement
+
+
 
 // const outputJSONPath = "./data_routes/routes_data.json";
 // writeJSONFile(routesData, outputJSONPath);

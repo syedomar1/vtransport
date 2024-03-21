@@ -1,55 +1,50 @@
-import React from "react";
+import Logo from "./Logo";
 import TitleCard from "./TitleCard";
-
-export default function OverlayStyle() {
-    // const overlayStyle = {
-    //     position: 'relative',
-    //     width: '100vw',
-    //     height: '100vh',
-    // };
-
-    const imageStyle = {
+export default function OverlayStyle(){
+    const overlayStyle = {
         position: 'absolute',
         top: 0,
         left: 0,
-        width: '100%',
-        height: '100%',
-        backgroundImage: 'url("./public/vit_bg.png")',
-        backgroundRepeat: 'no-repeat',
+        width: '100vw',
+        height: '100vh',
         backgroundPosition: 'center',
-        backgroundSize: 'cover',
-        zIndex: 0,
-    };
-
+        backgroundImage: "linear-gradient(rgba(100,100,100,0.5),rgba(0,0,0,0.9))", // Greyish color with 50% opacity
+        zIndex: -1, // Ensure the overlay is above the background image
+        backgroundSize:'cover',
+      };
     const dashBoard = {
         position: 'absolute',
-        top: '30vh',
-        left: 'calc(50% - 20vw)',
+        top: 200,
+        left: 750,
         width: '40vw',
         height: '28vw',
-        backgroundColor: 'rgba(0,0,0,0.5)',
+        backgroundColor: 'transparent',
         color: 'white',
-        padding: '2.5vw',
-        borderRadius: '3.75vw',
-        zIndex: 1,
+        padding: 10,
+    };
+    const board = {
+        position: 'absolute',
+        top: '15%',
+        left: '0%',
+        width: '100%',
+        height: '85%',
+        backgroundColor: 'rgba(0,0,0,0.8)',
+        borderTop: "5px white solid"
     };
 
     return (
-        <div className="OverlayStyle" >
-            <TitleCard />
-            <div style={imageStyle}></div>
-            <div style={dashBoard}>
-                <h1 className="text-3xl font-semibold">DASHBOARD</h1>
-                <hr className="mt-2 border-2 w-76 color-white" />
-                <ul className="py-5 list-disc px-5 text-xl">
-                    <li>Due to the red alert being declared in Chennai, all the buses will leave at 4:00pm.
-                        <hr className="mt-2 border-1 w-76 color-white" />
-                    </li>
-                    <li>Please make sure all the students who used the college bus get their bus pass from the transport office before 2:00pm without fail.
-                        <hr className="mt-2 border-1 w-76 color-white" />
-                    </li>
-                </ul>
+        <div className="OverlayStyle" style={overlayStyle}>
+            {/* <Logo></Logo> */}
+            <div style = {{display: "flex", flexDirection: "row"}}>
+                <TitleCard></TitleCard> 
+                <div style={dashBoard}>
+                    <span className="TitleCard text-4xl font-bold">DASHBOARD</span>
+                    <div style={board}>
+
+                    </div>
+                </div>
             </div>
+            
         </div>
-    );
+)
 }
