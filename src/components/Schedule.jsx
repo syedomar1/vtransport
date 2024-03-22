@@ -73,36 +73,22 @@ export default function Schedule({busdata}) {
           overflow:'auto',
         }}>
           <Tabs id="custom-animation" value="{currentValue}">
-  <TabsHeader>
-    {data.map(({ label, value }, index) => (
-      <Tab
-        key={value}
-        value={value}
-        className={`tab-item border border-black-500 border-solid rounded-t-md ${index !== 0 ? 'border-l-0' : ''} hover:bg-blue-${index + 3}00 hover:text-white py-2 px-4 inline-block cursor-pointer transition duration-300`}
-        style={{ 
-          backgroundColor: `rgb(0, ${index * 20 + 80}, ${index * 20 + 180})`,
-          width: `${100 / data.length}%` // Ensure equal width for each tab
-        }}
-      >
-        {label}
-      </Tab>
-    ))}
-  </TabsHeader>
+    <TabsHeader> 
+  {data.map(({ label, value }, index) => (
+    <Tab
+      key={value}
+      value={value}
+      className={`rounded-tr-2xl rounded-tl-md ${index !== 0 ? 'border-l-0' : ''} hover:bg-blue-${index + 3}00 hover:text-white py-5 px-4 mx--2 inline-block cursor-pointer transition duration-300 border-b-4 border-white-500 text-white`}
+      style={{ backgroundColor: `rgb(0, ${index * 20 + 80}, ${index * 20 + 180})`, fontFamily: "Inria Sans, sans-serif" }} // Assign different shades of blue for each tab
+      onClick={() => setBackgroundColor(`rgb(0, ${index * 20 + 80}, ${index * 20 + 180})`)}
+    >
+      <span className = "text-3xl">{label.slice(0,2)}</span>{label.slice(2,4)}  <span className = "text-xl">{label.slice(4)}</span>
+    </Tab>
+  ))}
+</TabsHeader>
 
-  <TabsBody
-    animate={{
-      initial: { y: 250 },
-      mount: { y: 0 },
-      unmount: { y: 250 },
-    }}
-  >
-    {data.map(({ value, desc }) => (
-      <TabPanel key={value} value={value}>
-        {desc}
-      </TabPanel>
-    ))}
-  </TabsBody>
-</Tabs>
+
+        </Tabs>
 
           <Box
             component="form"
