@@ -1,5 +1,7 @@
-import express from 'express';
-import cors from 'cors';
+const express = require('express');
+const cors = require('cors');
+const { DataExtraction } = require('./data.js');
+
 const app = express();
 const port = 8000; // Set port to 8000
 
@@ -7,7 +9,7 @@ const port = 8000; // Set port to 8000
 app.use(cors());
 
 // Define your data extraction function from data.js
-import { DataExtraction } from './data.js';
+// import { DataExtraction } from './data.js';
 
 app.get('/api/data', (req, res) => {
   const filePath2 = "./data_routes/bus_timings2.xlsx"; // Assuming the script and data are in the same directory
