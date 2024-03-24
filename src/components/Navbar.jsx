@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaTimes } from 'react-icons/fa';
 import { CiMenuFries } from 'react-icons/ci';
-import logo from '../assets/vit_logo.png';
+import logo from '../assets/vitlogo.png';
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -30,15 +30,15 @@ const Navbar = () => {
 
   return (
     <nav style={{position:'fixed',top:0,left:0,width:'100%',zIndex:"1"}}>
-      <div className='h-10vh flex justify-between z-50 text-white lg: py-2 px-20  bg-slate-700 bg-opacity-100 '>
+      <div className='absolute w-screen h-40 flex justify-between z-50 text-white lg: px-20  bg-transparent-700 bg-opacity-100 '>
         <div className='flex items-center flex-1'>
           <Link to='/' className="cursor-pointer" onClick={closeNavbar}>
-            <img src={logo} alt="VIT Logo" className="h-16 w-32" />
+            <img src={logo} alt="VIT Logo" className="h-32 w-82" />
           </Link>
         </div>
-        <div className='lg:flex md:flex lg:flex-1 items-center justify-end font-normal hidden'>
+        <div className='lg:flex md:flex lg:flex-1 justify-end font-normal hidden'>
           <div className='flex-10'>
-            <ul className='flex gap-8 mr-16 text-[18px]'>
+            <ul className='font-sans text-xl flex gap-10 mr-16 text-[18px] bg-black/80 p-20 py-6 font-bold' style={{borderBottom: "5px white solid"}}>
               <Link to='/' className='nav-link' onClick={closeNavbar}>
                 <li className='hover:text-blue-300 transition border-slate-900 cursor-pointer text-decoration-none'>Home</li>
               </Link>
@@ -54,9 +54,9 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
-        <div className="flex items-center"> {/* This div contains the Login button */}
+        <div className="flex mt-5"> {/* This div contains the Login button */}
           <Link to='/login' className='nav-link' onClick={closeNavbar}>
-            <button className='bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 rounded'>
+            <button className='bg-black/80 hover:bg-blue-400 text-white font-bold py-2 px-4 rounded'>
               Login
             </button>
           </Link>

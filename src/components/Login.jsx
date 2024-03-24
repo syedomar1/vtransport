@@ -39,25 +39,41 @@ const Login = () => {
     }
   };
 
+  const overlayStyle = {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    width: '100vw',
+    height: '100vh',
+    backgroundPosition: 'center',
+    backgroundImage: "linear-gradient(rgba(100,100,100,0.3),rgba(0,0,0,0.9))", // Greyish color with 50% opacity
+    zIndex: -1, // Ensure the overlay is above the background image
+    backgroundSize: 'cover',
+  };
+
   return (
-    <section className="h-screen flex justify-center items-start pt-16" style={{ backgroundColor: 'rgb(8,44,84)' }}>
-      <div className="w-full max-w-[570px] mx-auto rounded-lg shadow-md p-10" style={{ backgroundColor: '#71b1eb' }}>
-        <h3 className="text-headingColor text-[22px] leading-9 font-bold mb-10 text-white text-center">
-          VTransport Login
-        </h3>
+    <section  style={overlayStyle} className="h-screen flex justify-center items-start pt-40">
+      <fieldset className="w-full max-w-[570px] mx-auto p-10 pb-20 bg-transparent rounded-3xl border-4 border-white backdrop-blur-md" >
+        <legend className="text-white text-5xl font-bold"> &nbsp;Login &nbsp; </legend>
         <form className="py-4 md:py-0" onSubmit={handleSubmit}>
-          <div className="mb-5">
+          <div className="mb-5 pt-5">
             <TextField
               id="email"
               name="email"
-              label="Enter your email"
+              label="Email"
               value={formData.email}
               onChange={handleInputChange}
               variant="outlined"
               fullWidth
               InputProps={{
-                className: "text-white",
-                style: { backgroundColor: "white" },
+                className: "text-white placeholder-white",
+                style: { backgroundColor: "transparent",
+                         borderRadius: "999px",
+                         border: "3px white solid"},
+              }}
+              InputLabelProps={{
+                style: { color: "white",}
+
               }}
               required
             />
@@ -66,30 +82,35 @@ const Login = () => {
             <TextField
               id="password"
               name="password"
-              label="Enter your password"
+              label="Password"
               type="password"
               value={formData.password}
               onChange={handleInputChange}
               variant="outlined"
               fullWidth
               InputProps={{
-                className: "text-white",
-                style: { backgroundColor: "white" },
+                className: "text-white placeholder-white",
+                style: { backgroundColor: "transparent",
+                         borderRadius: "999px",
+                         border: "3px white solid"},
+              }}
+              InputLabelProps={{
+                className: "px-20",
+                style: { color: "white",}
+
               }}
               required
             />
           </div>
-          <div className="mt-7 flex justify-center">
-            <Link to="/" className="bg-green-500 rounded-lg text-white text-[18px] leading-[30px] rounded-lg px-8 py-3 hover:bg-green-700">
-              <button
-                type="submit"
-              >
+          <div className="mt-14 flex justify-center">
+            <Link to="/" className="bg-cyan-600 rounded-full text-white text-[18px] leading-[30px] rounded-lg px-8 py-3 hover:bg-green-700">
+              <button type="submit" className="w-60">
                 Login
               </button>
             </Link>
           </div>
         </form>
-      </div>
+      </fieldset>
     </section>
   );
 };

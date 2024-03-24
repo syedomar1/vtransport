@@ -30,7 +30,9 @@ export default function OverlayStyle() {
         width: '100%',
         height: '85%',
         backgroundColor: 'rgba(0,0,0,0.8)',
-        borderTop: "5px white solid"
+        borderTop: "5px white solid",
+        paddingLeft:"20px",
+        paddingTop: "10px",
     };
 
     return (
