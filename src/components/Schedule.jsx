@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import MenuItem from '@mui/material/MenuItem';
@@ -8,16 +8,18 @@ import { Tabs, TabsHeader, TabsBody, Tab, TabPanel } from "@material-tailwind/re
 import Accordion from '@mui/material/Accordion';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
-import * as React from 'react';
+// import * as React from 'react';
 import Typography from '@mui/material/Typography';
 import AddIcon from '@mui/icons-material/Add';
+import { DataContext } from '../App';
 
-export default function Schedule({busdata}) {
+export default function Schedule() {
+  const busdata = useContext(DataContext);
   const [busRoutesData,setBusRoutesData]=useState(busdata[5]);
   const [selectedRoute, setSelectedRoute] = useState('');
   const [selectedTiming, setSelectedTiming] = useState(''); 
   const [selectedRouteStoppings, setSelectedRouteStoppings] = useState([]);
-
+  
   const handleRouteChange = (event) => {
     setSelectedRoute(event.target.value);
     setSelectedRouteStoppings(busRoutesData[event.target.value]);
@@ -102,7 +104,7 @@ export default function Schedule({busdata}) {
   ))}
 </TabsHeader>
 
-
+{/* 
 <TabsBody
   animate={{
     initial: { y: 250 },
@@ -115,7 +117,7 @@ export default function Schedule({busdata}) {
       {desc || "No content available"}
     </TabPanel>
   ))}
-</TabsBody>
+</TabsBody> */}
 
         </Tabs>
 
@@ -218,7 +220,7 @@ export default function Schedule({busdata}) {
             </Box>
             <hr style={{ width: '80%', margin: '3% 0' , left:'10%' }} />
           </Box>
-          <Accordion style={{ margin: '0% 5%', width: '90%' }}>
+          <Accordion style={{ margin: '0% 5%', width: '90%', marginBottom:'2rem' }}>
             <AccordionSummary
               expandIcon={<AddIcon />}
               aria-controls="panel2-content"
@@ -228,7 +230,7 @@ export default function Schedule({busdata}) {
               <Typography variant="subtitle1" sx={{ flexBasis: '50.00%' }}>{selectedRoute}</Typography>
               <Typography variant="subtitle1" sx={{ flexBasis: '50.00%' }}>{selectedTiming}</Typography>
             </AccordionSummary>
-            <AccordionDetails style={{ color: '#71b1eb'}}>
+            <AccordionDetails style={{ color: '#71b1eb', marginBottom:'2rem'}}>
               <table className="table-fixed w-full text" style={{textColor:"#71b1eb"}}>
                 <thead>
                   <tr>
