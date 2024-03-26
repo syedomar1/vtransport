@@ -143,7 +143,7 @@ function extractDataFromSheet4(sheet) {
     const renamedRoutes = {};
     for (const key in routes) {
         if (Object.prototype.hasOwnProperty.call(routes, key)) {
-            const routeNumberAndLocation = key.replace('BUS ROUTE NO:', ''); // Remove prefix
+            const routeNumberAndLocation = key.replace('BUS ROUTE NO:', '').trim(); // Remove prefix
             renamedRoutes[routeNumberAndLocation] = routes[key];
         }
     }

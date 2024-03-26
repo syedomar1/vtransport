@@ -3,6 +3,29 @@
 @tailwind utilities;
 
 
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .content {
+    flex-grow: 1;
+  }
+  
+  footer {
+    background-color: #374151;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  
+
 ::-webkit-scrollbar{
     width: 15px;
 }

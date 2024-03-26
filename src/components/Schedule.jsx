@@ -3,32 +3,36 @@ import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import MenuItem from '@mui/material/MenuItem';
 import ScheduleStyle from './ScheduleStyle';
-// import busRoutesData from '../../backend/data_routes/routes_data.json';
-import { Tabs, TabsHeader, TabsBody, Tab, TabPanel } from "@material-tailwind/react";
+import { Tabs, TabsHeader, Tab, TabPanel } from "@material-tailwind/react";
 import Accordion from '@mui/material/Accordion';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
-// import * as React from 'react';
 import Typography from '@mui/material/Typography';
 import AddIcon from '@mui/icons-material/Add';
+import RemoveIcon from '@mui/icons-material/Remove';
 import { DataContext } from '../App';
 
 export default function Schedule() {
   const busdata = useContext(DataContext);
-  const [busRoutesData,setBusRoutesData]=useState(busdata[5]);
+  const [busRoutesData, setBusRoutesData] = useState(busdata[5]);
   const [selectedRoute, setSelectedRoute] = useState('');
-  const [selectedTiming, setSelectedTiming] = useState(''); 
+  const [selectedTiming, setSelectedTiming] = useState('');
   const [selectedRouteStoppings, setSelectedRouteStoppings] = useState([]);
-  
+  const [backgroundColor, setBackgroundColor] = useState('#71b1eb');
+  const [activeAccordion, setActiveAccordion] = useState(null);
   const handleRouteChange = (event) => {
     setSelectedRoute(event.target.value);
     setSelectedRouteStoppings(busRoutesData[event.target.value]);
   };
-  
+
+  const toggleAccordion = (index) => {
+    setActiveAccordion(activeAccordion === index ? null : index);
+  };
+
   const handleStoppingChange = (event) => {
     setSelectedTiming(event.target.value);
     // Update busRoutesData based on selected timing
-    switch(event.target.value) {
+    switch (event.target.value) {
       case 'MORNING':
         setBusRoutesData(busdata[5]);
         break;
@@ -67,18 +71,16 @@ export default function Schedule() {
     return suffixes[(v - 20) % 10] || suffixes[v] || suffixes[0];
   };
 
-  const currentValue = getCalendarDates()[0]; 
+  const currentValue = getCalendarDates()[0];
 
   const data = getCalendarDates().map(date => ({
     label: date,
     value: date,
-    // desc: `Routes for ${date} will be added soon`,
   }));
 
   return (
-    <div style={{ position: 'relative', overflow: 'auto' }}>
-      {/* Your content here */}
-      <div style={{ zIndex: 0, position: 'relative', minHeight: '100vh' }}>
+    <div style={{ position: 'relative', overflow: 'auto', }}>
+      <div style={{ zIndex: 0, position: 'relative', minHeight: '100vh'}}>
         <div style={{
           position: 'sticky',
           top: '15%',
@@ -86,40 +88,24 @@ export default function Schedule() {
           height: '75vh',
           width: '80vw',
           borderRadius: '20px',
-          backgroundColor: '#71b1eb',
-          overflow:'auto',
+          backgroundColor,
+          overflow: 'auto',
         }}>
-          <Tabs id="custom-animation" value="{currentValue}">
-    <TabsHeader> 
-  {data.map(({ label, value }, index) => (
-    <Tab
-      key={value}
-      value={value}
-      className={`rounded-tr-2xl rounded-tl-md ${index !== 0 ? 'border-l-0' : ''} hover:bg-blue-${index + 3}00 hover:text-white py-5 px-4 mx--2 inline-block cursor-pointer transition duration-300 border-b-4 border-white-500 text-white`}
-      style={{ backgroundColor: `rgb(0, ${index * 20 + 80}, ${index * 20 + 180})`, fontFamily: "Inria Sans, sans-serif" }} // Assign different shades of blue for each tab
-      onClick={() => setBackgroundColor(`rgb(0, ${index * 20 + 80}, ${index * 20 + 180})`)}
-    >
-      <span className = "text-3xl">{label.slice(0,2)}</span>{label.slice(2,4)}  <span className = "text-xl">{label.slice(4)}</span>
-    </Tab>
-  ))}
-</TabsHeader>
-
-{/* 
-<TabsBody
-  animate={{
-    initial: { y: 250 },
-    mount: { y: 0 },
-    unmount: { y: 250 },
-  }}
->
-  {data.map(({ value, desc }) => (
-    <TabPanel key={value} value={value}>
-      {desc || "No content available"}
-    </TabPanel>
-  ))}
-</TabsBody> */}
-
-        </Tabs>
+          <Tabs id="custom-animation" value={currentValue}>
+            <TabsHeader>
+              {data.map(({ label, value }, index) => (
+                <Tab
+                  key={value}
+                  value={value}
+                  className={`rounded-tr-2xl rounded-tl-md ${index !== 0 ? 'border-l-0' : ''} hover:bg-blue-${index + 3}00 hover:text-white py-5 px-4 mx--2 inline-block cursor-pointer transition duration-300 border-b-4 border-white-500 text-white`}
+                  style={{ backgroundColor: `rgb(0, ${index * 20 + 80}, ${index * 20 + 180})`, fontFamily: "Inria Sans, sans-serif" }}
+                  onClick={() => setBackgroundColor(`rgb(0, ${index * 20 + 80}, ${index * 20 + 180})`)}
+                >
+                  <span className="text-3xl">{label.slice(0, 2)}</span>{label.slice(2, 4)}  <span className="text-xl">{label.slice(4)}</span>
+                </Tab>
+              ))}
+            </TabsHeader>
+          </Tabs>
 
           <Box
             component="form"
@@ -222,15 +208,15 @@ export default function Schedule() {
           </Box>
           <Accordion style={{ margin: '0% 5%', width: '90%', marginBottom:'2rem' }}>
             <AccordionSummary
-              expandIcon={<AddIcon />}
+              expandIcon={activeAccordion === 0 ? <RemoveIcon /> : <AddIcon />}
               aria-controls="panel2-content"
               id="panel2-header"
-              sx={{ backgroundColor: 'white', color: '#71b1eb', textAlign: 'center' }}
+              sx={{ backgroundColor: 'white', color: backgroundColor, textAlign: 'center' }}
             >
               <Typography variant="subtitle1" sx={{ flexBasis: '50.00%' }}>{selectedRoute}</Typography>
               <Typography variant="subtitle1" sx={{ flexBasis: '50.00%' }}>{selectedTiming}</Typography>
             </AccordionSummary>
-            <AccordionDetails style={{ color: '#71b1eb', marginBottom:'2rem'}}>
+            <AccordionDetails style={{ color: backgroundColor, marginBottom:'2rem'}}>
               <table className="table-fixed w-full text" style={{textColor:"#71b1eb"}}>
                 <thead>
                   <tr>

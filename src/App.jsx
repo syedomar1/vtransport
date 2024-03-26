@@ -42,21 +42,21 @@ function App() {
   return (
     <DataContext.Provider value={data}>
       <Router>
-        <div className='bg-slate-900'>
-          <Navbar/>
-        </div>
-        <div className='content' style={{ overflow: 'auto', minHeight: 'calc(100vh - 80px)', marginTop: '80px' }}>
-          <Routes>
-            <Route exact path="/" element={<HomeScreen/>} />
-            <Route exact path="/schedule" element={<Schedule/>} />
-            <Route exact path="/track" element={<Map/>} />
-            <Route exact path="/timings" element={<Timings/>} />
-            <Route exact path='/login' element={<Login/>}></Route>
-            <Route exact path='/maps' element={<GMaps/>}></Route>
-          </Routes>
-          <Footer/>
-        </div>
-      </Router>
+      <div className='app-container'>
+      <Navbar/>
+      <div className='content'>
+        <Routes>
+          <Route exact path="/" element={<HomeScreen/>} />
+          <Route exact path="/schedule" element={<Schedule/>} />
+          <Route exact path="/track" element={<Map/>} />
+          <Route exact path="/timings" element={<Timings/>} />
+          <Route exact path='/login' element={<Login/>}></Route>
+          <Route exact path='/maps' element={<GMaps/>}></Route>
+        </Routes>
+      </div>
+      <Footer/>
+    </div>
+    </Router>
     </DataContext.Provider>
   );
 }

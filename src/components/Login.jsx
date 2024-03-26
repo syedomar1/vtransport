@@ -59,13 +59,13 @@ const Login = () => {
                   style: {
                     backgroundColor: "transparent",
                     borderRadius: "999px",
-                    //border: "3px white solid"
-                  }
+                  },
                 }}
                 InputLabelProps={{
-                  style: { color: "white" }
+                  style: { color: "white" },
                 }}
                 required
+                classes={{outlined: "border-white"}} // Apply border color using classes prop
               />
             </div>
             <div className="mb-5">
@@ -83,13 +83,13 @@ const Login = () => {
                   style: {
                     backgroundColor: "transparent",
                     borderRadius: "999px",
-                    //border: "3px white solid"
-                  }
+                  },
                 }}
                 InputLabelProps={{
-                  style: { color: "white" }
+                  style: { color: "white" },
                 }}
                 required
+                classes={{outlined: "border-white"}} // Apply border color using classes prop
               />
             </div>
             <div className="mt-14 flex justify-center">
