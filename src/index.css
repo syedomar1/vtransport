@@ -8,7 +8,6 @@ body{
   background-image: url("./assets/vit_bg.png");
   top: 0;
   left: 0;
-  background-size: cover; 
   z-index: -2;
   overflow-y: hidden; /* Allow overflow */
   overflow-x: hidden;

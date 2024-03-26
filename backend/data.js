@@ -1,5 +1,6 @@
-import * as xlsx from 'xlsx';
-import fs from 'fs';
+const xlsx = require('xlsx');
+const fs = require('fs');
+
 
 
 // Function to extract data from a sheet object
@@ -171,7 +172,7 @@ function extractDataFromSheet5(sheetData) {
 }
 
 // Function to extract data from Excel file
-export function DataExtraction(filePath,filePath2) {
+function DataExtraction(filePath,filePath2) {
     // console.log('Reading file:', filePath); // Debug statement
     // const fileData = fs.readFileSync(filePath);
     // const workbook = xlsx.read(fileData, { type: 'buffer' });
@@ -207,7 +208,7 @@ export function DataExtraction(filePath,filePath2) {
     return sheets;
     // console.log(sheets[5]);
 }
-
+module.exports = { DataExtraction };
 
 // // Function to write data to JSON file
 // function writeJSONFile(data, outputPath) {
