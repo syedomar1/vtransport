@@ -83,7 +83,7 @@ export default function Schedule() {
       <div style={{ zIndex: 0, position: 'relative', minHeight: '100vh'}}>
         <div style={{
           position: 'sticky',
-          top: '15%',
+          top: '18%',
           left: '10%',
           height: '75vh',
           width: '80vw',
