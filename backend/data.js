@@ -140,7 +140,35 @@ function extractDataFromSheet4(sheet) {
         }
     }
 
-    return routes;
+    // Rename keys without 'BUS ROUTE NO:' prefix
+    const renamedRoutes = {};
+    for (const key in routes) {
+        if (Object.prototype.hasOwnProperty.call(routes, key)) {
+            const routeNumberAndLocation = key.replace('BUS ROUTE NO:', '').trim(); // Remove prefix
+            renamedRoutes[routeNumberAndLocation] = routes[key];
+        }
+    }
+
+    return renamedRoutes;
+}
+
+
+function extractDataFromSheet5(sheetData) {
+    const extractedData = {};
+
+    // Extract primary contact information
+    const Name1 = sheetData.A2.v;
+    const Phone1 = sheetData.B2.v;
+    const Phone2 =sheetData.C2.v;
+    extractedData[Name1] = [Phone1,Phone2];
+
+    // Extract secondary contact information
+    const Name2 = sheetData.A3.v;
+    const Phone3 = sheetData.B3.v;
+    const Phone4 = sheetData.C3.v;
+    extractedData[Name2]=[Phone3,Phone4];
+
+    return extractedData;
 }
 
 // Function to extract data from Excel file
@@ -167,11 +195,16 @@ function DataExtraction(filePath,filePath2) {
     //console.log(workbook.Sheets[workbook.SheetNames[4]]);
     const fileData2=fs.readFileSync(filePath2);
     const workbook2=xlsx.read(fileData2,{type:'buffer'});
+    //console.log(workbook2.SheetNames);
     sheets[5]=extractDataFromSheet4(workbook2.Sheets[workbook2.SheetNames[0]]);
     sheets[6]=extractDataFromSheet4(workbook2.Sheets[workbook2.SheetNames[1]]);
     sheets[7]=extractDataFromSheet4(workbook2.Sheets[workbook2.SheetNames[2]]);
     sheets[8]=extractDataFromSheet4(workbook2.Sheets[workbook2.SheetNames[3]]);
-    console.log(sheets[5]);
+    sheets[9]=extractDataFromSheet5(workbook2.Sheets[workbook2.SheetNames[4]]);
+    console.log(sheets[9]);
+    //console.log(workbook2.Sheets[workbook2.SheetNames[4]]);
+
+    // console.log(sheets[5]);
     return sheets;
     // console.log(sheets[5]);
 }
