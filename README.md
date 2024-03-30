@@ -1,8 +1,19 @@
-# React + Vite
+# Getting Started with VTransport App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## In the project directory, you can run:
 
-Currently, two official plugins are available:
+### `npm i`
+### `npm run dev`
+Runs the app in the development mode.\
+Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# How to Contribute
+
+Contributions to this project are always welcome! If you would like to contribute, please follow these steps:
+
+1. Fork the repository
+1. Clone the repository to your local machine
+1. Create a new branch for your feature or bug fix
+1. Make your changes and commit them with descriptive commit messages
+1. Push your changes to your fork
+1. Create a pull request to the main repository
