@@ -12,9 +12,11 @@ import { DataContext } from '../App';
 import { ConstructionOutlined } from "@mui/icons-material";
 
 export default function Timings() {
-
-    const busdata = useContext(DataContext);
+    const { apiData ,busRoutes,mapboxApiKey} = useContext(DataContext);
+    const busdata = apiData;
     const data=busdata[5];
+    //console.log(busRoutes);
+    //console.log(data);
     const [activeAccordion, setActiveAccordion] = useState(null);
     const [selectedRoute, setSelectedRoute] = useState('');
     const [filteredData, setFilteredData] = useState([]);
@@ -37,13 +39,14 @@ export default function Timings() {
     const handleRouteChange = (event) => {
         const selectedRoute = event.target.value;
         setSelectedRoute(selectedRoute);
+        
         // Additional logic related to route change can be added here
         // Search for the selected route in all sheets
         const foundData = searchInSheets(selectedRoute);
         //console.log(foundData);
         //console.log("idk man");
         setFilteredData(foundData);
-        console.log(filteredData);
+        //console.log(filteredData);
     };
 
     return (
@@ -191,6 +194,7 @@ export default function Timings() {
                         {/* Your Route Information content goes here */}
                     </AccordionDetails>
                 </Accordion>
+
             </div>
         </div>
     );

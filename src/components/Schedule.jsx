@@ -13,7 +13,8 @@ import RemoveIcon from '@mui/icons-material/Remove';
 import { DataContext } from '../App';
 
 export default function Schedule() {
-  const busdata = useContext(DataContext);
+  const { apiData } = useContext(DataContext);
+  const busdata = apiData;
   const [busRoutesData, setBusRoutesData] = useState(busdata[5]);
   const [selectedRoute, setSelectedRoute] = useState('');
   const [selectedTiming, setSelectedTiming] = useState('');
