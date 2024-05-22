@@ -5,11 +5,10 @@ import HomeScreen from './components/HomeScreen'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Schedule from './components/Schedule';
-import Map from './components/Map';
+import Map from './components/Home';
 import Navigation from './components/Navigation';
 import Timings from './components/Timings';
 import Login from './components/Login';
-import GMaps from './components/GMaps';
 
 // Step 3: Create a context
 const DataContext = createContext(null);
@@ -51,7 +50,6 @@ function App() {
           <Route exact path="/track" element={<Map/>} />
           <Route exact path="/timings" element={<Timings/>} />
           <Route exact path='/login' element={<Login/>}></Route>
-          <Route exact path='/maps' element={<GMaps/>}></Route>
         </Routes>
       </div>
       <Footer/>
