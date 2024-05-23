@@ -133,7 +133,7 @@ export default function Map() {
                                     'line-cap': 'round'
                                 },
                                 paint: {
-                                    'line-color': 'blue',
+                                    'line-color': route.color,
                                     'line-width': 1
                                 }
                             });
@@ -161,7 +161,7 @@ export default function Map() {
                                 'line-cap': 'round'
                             },
                             paint: {
-                                'line-color': 'blue',
+                                'line-color': route.color,
                                 'line-width': 1
                             }
                         });
