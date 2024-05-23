@@ -86,5 +86,4 @@ function App() {
     </DataContext.Provider>
   );
 }
-
 export { DataContext, App as default };
