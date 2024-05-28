@@ -174,7 +174,7 @@ export default function Map() {
     }, []);
 
     return (
-        <div id="map" style={{ position: 'absolute', top: '5%', left: '5%', bottom: 0, width: '90%', height: '90%' }}></div>
+        <div id="map" style={{ position: 'absolute', top: '25%', bottom: 0, width: '100%', height: '75%' }}></div>
     );
 }
 

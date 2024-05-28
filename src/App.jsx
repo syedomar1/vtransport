@@ -56,7 +56,7 @@ function App() {
     }
   };
 
-  const mapboxApiKey ='pk.eyJ1Ijoicm9uYWstY2hvcmRpYSIsImEiOiJjbHV1cnB2NXowOWh0MmtwamFleDJ5eHNrIn0.qraVk2myMWGOTy4OnS-txw';
+  const mapboxApiKey = import.meta.env.VITE_MAPBOX_APIKEY;
 
   if (loading) {
     // Render a loading state until data is fetched
