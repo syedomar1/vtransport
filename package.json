@@ -29,7 +29,7 @@
     "lrm-google": "^1.0.1",
     "mapbox-gl": "^3.3.0",
     "mongodb": "^6.5.0",
-    "mongoose": "^8.3.3",
+    "mongoose": "^8.8.3",
     "node": "^21.7.1",
     "nodemon": "^3.1.0",
     "path": "^0.12.7",
