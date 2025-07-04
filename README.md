@@ -2,7 +2,7 @@
 
 # Introduction
 
-VTransport is an optimized webapp, a one way solution for all related functionalitites of Transportation Department of Vellore Institute of Technology, Chennai. It is designed to address the needs of individuals to avoid early morning hastles. Leveraging the advancements in internet technology, VTransport aims to deliver daily routine bus schedule with all the necessary details in one app. Which also consist of tracking of the route which the bus is travelling for new college transportaion. This README file provides a comprehensive guide to using VTransport, outlining its features, functionalities, and how to get started.
+VTransport is an optimized webapp, a one way solution for all related functionalitites of Transportation Department of Vellore Institute of Technology, Chennai. It is designed to address the needs of individuals to avoid early morning hastles. Leveraging the advancements in internet technology, VTransport aims to deliver daily routine bus schedule with all the necessary details in one app. Which also consist of tracking of the route which the bus is travelling for new college transportaion. This README file provides a comprehensive guide for using VTransport, outlining its features, functionalities, and how to get started.
 
 ## VTransport offers a range of features to provide accessible transportation related solutions:
 
